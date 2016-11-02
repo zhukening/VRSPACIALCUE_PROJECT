@@ -1,0 +1,45 @@
+
+please visit http://bit.ly/3D_Radar_Builder_Info for more info
+
+3D Radar Builder is an editor tool which allows you to design and create radar and tracking systems
+without ever needing to write a single line of code.
+
+ So here is how to get started.
+
+ (1) Go to the "Tools" Tab, Select "DaiMangou > Radar > Pro RadarBuilder".
+
+ (2) The Pro Radar Builder editor Window will be displayed
+
+ (3) If you do not currently have an object with a _3DRadar component attached then you will see this message in the editor window 
+ "There is no Radar selected, you will need to add one or select an existing radar"
+
+ (4) From that point you can select an object with a _3DRadar attached or Click "3D Radar" to create a new 3D Radar in the scene.
+
+ (5) Once you have created a new 3D Radar you will notice that the editor window interface changes to show the "Designs" area.
+
+ (6) In the designs area there is "Design Section A".
+
+ (7) You will notice that in the designs are, certain values are preset. This is simply for example purposes. 
+
+ (8) The values determined the Tracking Bounds, Inner Culling Zones, Radar Diameter, Scene Scale, and Visualize.
+
+ Visualize- when checked, will display the result of each value you set in Design Area A except for Scene Scale
+
+ Scene Scale - This is the position of the blips of your radar in relation to their position in world space.
+ For example, if you set a scene scale of 1000, then you are stating that anything within 1000 units of your player 
+ or whatever object you use as a center object; in world space  will be tracked
+
+ Tracking Bounds - This is the range INSIDE of the radar where radar blip are able to exist without being culled. Anything outside of these bounds will be culled.
+
+ Inner Culling Zones - This is a region inside of the Tracking bounds, Anything inside this area is culled.
+
+ Radar Diameter - Controls the scale of the radar. It is IMPORTANT to understand that while Radar Diameter controls size of the radar.
+  Your sprite may be displayed at a different size because of the way you have designed your sprite. High resolution sprites will be larger regardless of having a scale of (1,1,1).
+  If you have created a radar where half of the radius of the sprite is transparent then your sprite will not match up with the Radar Diameter.
+
+ (9) If you select "Blips" in the editor window you will see "Number of Blip types" which is set to 0. This determines how many types of 
+ blips you wish to have displayed on your radar at runtime.
+
+ (10) For each Blip in the Blips area. You can open the foldout and you then have the option to set your blips to be displayed as sprites, Meshes or Prefabs
+
+ (11) Your settings in the blips area determine the characteristics of your blips
