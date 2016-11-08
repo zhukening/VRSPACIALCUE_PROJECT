@@ -30,7 +30,7 @@ public class MouseCheck : MonoBehaviour
         {          
                 Destroy(hit.collider.gameObject);
                 isDelect = false;
-                Instantiate(obj, new Vector3(Random.Range(-5, 5), Random.Range(0, 4), Random.Range(-5, 5)), Quaternion.identity);
+                Instantiate(obj, new Vector3(Random.Range(-5, 5), Random.Range(0, 4), Random.Range(-5, 5)), Quaternion.identity); /* spawn new target*/
         }
     }
 }
