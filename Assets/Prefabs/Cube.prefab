@@ -104,7 +104,6 @@ GameObject:
   - 114: {fileID: 114000010690294478}
   - 114: {fileID: 114000011988710762}
   - 82: {fileID: 82000012744340770}
-  - 114: {fileID: 114000011071910094}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Life
@@ -259,17 +258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f01d6d3f29b5f4985efde8402a70b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000011071910094
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013290443402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe9876b71f83b44a894a360cff67d33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000011988710762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -281,5 +269,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8c3d367d24b6a478c8fe6031e1847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1000013290443402}
-  m_InteractiveItem: {fileID: 114000011071910094}
+  obj: {fileID: 0}
