@@ -24,8 +24,12 @@ public class FeedbackMain : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-	
-	}
+        if (!UnityEngine.VR.VRDevice.isPresent)
+        {
+            // if a headset is not plugged in add the mouse look script
+            Camera.main.gameObject.AddComponent(typeof(MouseLook));
+        }
+    }
 	
 	// Update is called once per frame
 	void Update ()
