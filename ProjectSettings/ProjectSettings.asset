@@ -520,7 +520,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: fe277be4-e39f-4bbc-b56f-411c66b49271
-  projectName: New Unity Project
-  organizationId: junyuliu
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0

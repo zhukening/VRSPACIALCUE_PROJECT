@@ -371,8 +371,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   VFeedbackEnabled: 1
-  AFeedbackEnabled: 0
-  VbFedbackEnabled: 1
+  AFeedbackEnabled: 1
+  VbFedbackEnabled: 0
 --- !u!124 &124000012360790574
 Behaviour:
   m_ObjectHideFlags: 1
