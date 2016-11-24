@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692558, g: 0.49678743, b: 0.57508624, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -389,6 +389,21 @@ Prefab:
       propertyPath: m_Name
       value: Target
       objectReference: {fileID: 0}
+    - target: {fileID: 82000011059545666, guid: c697054528006794daa7d6e619738d66,
+        type: 2}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000011059545666, guid: c697054528006794daa7d6e619738d66,
+        type: 2}
+      propertyPath: DopplerLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000011059545666, guid: c697054528006794daa7d6e619738d66,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c697054528006794daa7d6e619738d66, type: 2}
   m_IsPrefabParent: 0
@@ -552,15 +567,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013604059104, guid: 5802b7c9e750bbe49b8afd4122e81be5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.34918022
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000013604059104, guid: 5802b7c9e750bbe49b8afd4122e81be5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.2757
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000013604059104, guid: 5802b7c9e750bbe49b8afd4122e81be5, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.784123
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000013604059104, guid: 5802b7c9e750bbe49b8afd4122e81be5, type: 2}
       propertyPath: m_LocalRotation.x
