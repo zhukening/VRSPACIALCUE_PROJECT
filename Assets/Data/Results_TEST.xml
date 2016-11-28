@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Targets>
     <Target Name="Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.7266202</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-3</x>
-        <y>2</y>
-        <z>-8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -23,13 +22,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.6957992</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>7</x>
-        <y>9</y>
-        <z>-5</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -44,13 +42,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.5182972</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-4</x>
-        <y>1</y>
-        <z>4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -65,13 +62,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.137306</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-9</x>
-        <y>5</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -86,13 +82,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.9443003</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>7</x>
-        <y>5</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -107,13 +102,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.62353408</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-7</x>
-        <y>9</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -128,13 +122,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.93829119</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>2</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -149,13 +142,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.50756741</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>9</y>
-        <z>-4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -170,13 +162,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.10996723</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-6</x>
-        <y>1</y>
-        <z>-6</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -191,13 +182,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.37503326</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>4</y>
-        <z>5</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -212,13 +202,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.09132218</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>9</x>
-        <y>5</y>
-        <z>1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -233,13 +222,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.04370034</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-7</x>
-        <y>2</y>
-        <z>4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -254,13 +242,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>6.67616272</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
         <x>0</x>
-        <y>4</y>
-        <z>-1</z>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -275,13 +262,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.728575766</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>8</x>
-        <y>3</y>
-        <z>-10</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -296,13 +282,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.573847</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>1</x>
-        <y>8</y>
-        <z>5</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -317,13 +302,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>3.41190672</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>9</x>
-        <y>1</y>
-        <z>-10</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -338,13 +322,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>3.11453533</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-8</x>
-        <y>7</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -359,13 +342,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>3.16423583</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>8</y>
-        <z>5</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -380,13 +362,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.778633535</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-1</x>
-        <y>9</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -401,13 +382,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="vHaptic_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.911166251</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-4</x>
-        <y>3</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -422,222 +402,11 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>3.39368987</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>1</y>
-        <z>6</z>
-      </Location>
-      <PlayerDirection>
         <x>0</x>
         <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.45813429</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>0</x>
-        <y>5</y>
-        <z>-10</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.67392957</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-9</x>
-        <y>5</y>
-        <z>-4</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.38543224</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>6</x>
-        <y>7</y>
-        <z>6</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.20936644</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>6</x>
-        <y>6</y>
-        <z>-5</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.712545931</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>0</x>
-        <y>5</y>
-        <z>6</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.0437957</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-8</x>
-        <y>5</y>
-        <z>-6</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.0933181</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>5</x>
-        <y>7</y>
-        <z>1</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.9879992</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-8</x>
-        <y>2</y>
-        <z>3</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.3750329</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>2</x>
-        <y>9</y>
-        <z>4</z>
-      </Location>
-      <PlayerDirection>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.8447569</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>2</x>
-        <y>6</y>
         <z>0</z>
       </Location>
       <PlayerDirection>
@@ -653,13 +422,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.15966642</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-10</x>
-        <y>9</y>
-        <z>-3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -674,13 +442,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.722934</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-6</x>
-        <y>1</y>
-        <z>1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -695,13 +462,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.50156641</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-3</x>
-        <y>9</y>
-        <z>4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -716,13 +482,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.5743438</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-4</x>
-        <y>7</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -737,13 +502,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.27522314</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-3</x>
-        <y>8</y>
-        <z>-8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -758,13 +522,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.17623246</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-9</x>
-        <y>3</y>
-        <z>-3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -779,13 +542,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>6.22907734</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>5</y>
-        <z>7</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -800,13 +562,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>4.42330265</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-6</x>
-        <y>8</y>
-        <z>4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -821,13 +582,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.209377</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>5</x>
-        <y>6</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -842,223 +602,12 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.087781</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-6</x>
-        <y>3</y>
-        <z>-5</z>
-      </Location>
-      <PlayerDirection>
-        <x>-0.00654438045</x>
-        <y>0.0130893923</y>
-        <z>-8.567117E-05</z>
-        <w>-0.99989295</w>
-        <eulerAngles>
-          <x>0.7500004</x>
-          <y>358.5</y>
-          <z>4.169174E-09</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.24250066</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-9</x>
-        <y>7</y>
-        <z>-2</z>
-      </Location>
-      <PlayerDirection>
-        <x>-0.0968314558</x>
-        <y>-0.374565274</y>
-        <z>-0.03936844</z>
-        <w>0.9212897</w>
-        <eulerAngles>
-          <x>348</x>
-          <y>315.75</y>
-          <z>-3.9278134E-06</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7951046</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>5</x>
-        <y>1</y>
-        <z>8</z>
-      </Location>
-      <PlayerDirection>
-        <x>-0.185141385</x>
-        <y>-0.386646658</y>
-        <z>-0.07954301</z>
-        <w>0.8999445</w>
-        <eulerAngles>
-          <x>336.75</x>
-          <y>313.5</y>
-          <z>9.29235739E-07</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.24249959</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>1</x>
-        <y>7</y>
-        <z>6</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.00649957173</x>
-        <y>0.1175349</y>
-        <z>-0.0007692751</z>
-        <w>0.9930472</w>
-        <eulerAngles>
-          <x>0.75</x>
-          <y>13.5000019</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.9607963</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>4</x>
-        <y>2</y>
-        <z>0</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.175762385</x>
-        <y>-0.01932795</y>
-        <z>-0.00345153175</z>
-        <w>-0.9842368</w>
-        <eulerAngles>
-          <x>339.75</x>
-          <y>2.25000262</y>
-          <z>-2.84381485E-07</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.77863425</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>3</x>
-        <y>7</y>
-        <z>1</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.0257386155</x>
-        <y>-0.182173073</y>
-        <z>-0.00477037346</z>
-        <w>-0.982917964</w>
-        <eulerAngles>
-          <x>357</x>
-          <y>21</y>
-          <z>3.740386E-07</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7612437</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>4</x>
-        <y>8</y>
-        <z>-4</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.212654248</x>
-        <y>-0.12115258</y>
-        <z>-0.02658171</z>
-        <w>-0.9692232</w>
-        <eulerAngles>
-          <x>335.25</x>
-          <y>14.2499952</y>
-          <z>0</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.960866868</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>9</x>
-        <y>5</y>
-        <z>-1</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.3819372</x>
-        <y>-0.277408779</y>
-        <z>-0.121341109</z>
-        <w>-0.8731808</w>
-        <eulerAngles>
-          <x>312.75</x>
-          <y>35.2500153</y>
-          <z>-1.257768E-06</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.1099664</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
         <x>0</x>
-        <y>7</y>
-        <z>-2</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.114592925</x>
-        <y>-0.379728258</y>
-        <z>-0.0474659577</z>
-        <w>-0.9167453</w>
-        <eulerAngles>
-          <x>345.75</x>
-          <y>44.9999924</y>
-          <z>2.2021934E-06</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.993907869</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-5</x>
-        <y>8</y>
-        <z>2</z>
-      </Location>
-      <PlayerDirection>
-        <x>0.302681983</x>
-        <y>-0.0249480419</y>
-        <z>-0.007925965</z>
-        <w>-0.9527321</w>
-        <eulerAngles>
-          <x>324.75</x>
-          <y>2.999985</y>
-          <z>-1.96025482E-07</z>
-        </eulerAngles>
-      </PlayerDirection>
-    </Target>
-    <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.687826455</Time>
-      <DistanceTravelled>0</DistanceTravelled>
-      <Location>
-        <x>-1</x>
-        <y>7</y>
-        <z>8</z>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -1073,202 +622,192 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>5.48356676</Time>
-      <DistanceTravelled>616.685242</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-10</x>
-        <y>5</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.149886578</x>
-        <y>-0.0323489122</y>
-        <z>-0.00490675773</z>
-        <w>0.9881617</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>342.75</x>
-          <y>356.250031</y>
-          <z>-2.793704E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.723113</Time>
-      <DistanceTravelled>84.44841</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-1</x>
-        <y>8</y>
-        <z>1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.151885077</x>
-        <y>-0.4359</y>
-        <z>-0.0749014243</z>
-        <w>0.883918464</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>340.5</x>
-          <y>307.500031</y>
-          <z>-5.43434862E-06</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.103966</Time>
-      <DistanceTravelled>215.556854</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-2</x>
-        <y>8</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.2776388</x>
-        <y>-0.0251475554</y>
-        <z>-0.00727036</z>
-        <w>0.9603288</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>327.75</x>
-          <y>356.999939</y>
-          <z>6.30946E-08</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>4.27420044</Time>
-      <DistanceTravelled>422.0224</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-10</x>
-        <y>3</y>
-        <z>-4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.175340846</x>
-        <y>-0.07081345</y>
-        <z>-0.0126456814</z>
-        <w>0.9818763</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>339.75</x>
-          <y>351.749878</y>
-          <z>-6.825156E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.6069665</Time>
-      <DistanceTravelled>69.62416</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>3</y>
+        <x>0</x>
+        <y>0</y>
         <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.0749475658</x>
-        <y>-0.469692379</y>
-        <z>-0.04006041</z>
-        <w>0.878730357</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>350.25</x>
-          <y>303.749878</y>
-          <z>4.331431E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.9049803</Time>
-      <DistanceTravelled>71.04427</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>3</x>
-        <y>5</y>
-        <z>2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.08288672</x>
-        <y>-0.219900057</y>
-        <z>-0.01875544</z>
-        <w>0.9718138</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>350.25</x>
-          <y>334.499878</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.65665722</Time>
-      <DistanceTravelled>86.9426</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>5</y>
-        <z>-8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.155467138</x>
-        <y>-0.109667271</y>
-        <z>-0.0173695851</z>
-        <w>-0.981581032</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>342</x>
-          <y>12.7498817</y>
-          <z>-2.24427708E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.45786536</Time>
-      <DistanceTravelled>106.877045</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-10</x>
-        <y>2</y>
-        <z>-3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.2730017</x>
-        <y>-0.474506319</y>
-        <z>-0.15761739</z>
-        <w>-0.821870148</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>323.25</x>
-          <y>59.9999352</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.44130063</Time>
-      <DistanceTravelled>124.4491</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>6</y>
-        <z>-4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.0463167429</x>
-        <y>-0.464976847</y>
-        <z>-0.0243684463</z>
-        <w>0.8837745</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>354</x>
-          <y>304.499939</y>
-          <z>2.14619121E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.981174052</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>5</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -1283,202 +822,192 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.70036626</Time>
-      <DistanceTravelled>112.842491</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
         <x>0</x>
-        <y>9</y>
-        <z>1</z>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.09134302</x>
-        <y>-0.05862418</y>
-        <z>-0.00538681261</z>
-        <w>-0.994077742</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>349.5</x>
-          <y>6.75004</y>
-          <z>5.426961E-08</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.24249983</Time>
-      <DistanceTravelled>94.6888</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-2</x>
-        <y>4</y>
+        <x>0</x>
+        <y>0</y>
         <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.3274548</x>
-        <y>-0.0309132673</y>
-        <z>-0.0107197836</z>
-        <w>0.9443002</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>321.75</x>
-          <y>356.25</y>
-          <z>6.794818E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.30876648</Time>
-      <DistanceTravelled>57.97834</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>8</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.1423846</x>
-        <y>-0.122751147</y>
-        <z>-0.0177980755</z>
-        <w>0.9820092</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>343.5</x>
-          <y>345.749969</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.624102</Time>
-      <DistanceTravelled>36.3964539</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>6</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.182138011</x>
-        <y>-0.0321707875</y>
-        <z>-0.005962503</z>
-        <w>-0.9827284</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>339</x>
-          <y>3.74995232</y>
-          <z>-2.85786058E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.6962177</Time>
-      <DistanceTravelled>8.909096</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
         <x>0</x>
-        <y>3</y>
-        <z>-6</z>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.1173335</x>
-        <y>-0.0584623329</y>
-        <z>-0.00691947248</z>
-        <w>-0.9913461</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>346.5</x>
-          <y>6.74995327</y>
-          <z>2.19508451E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.628837466</Time>
-      <DistanceTravelled>11.0110159</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>1</x>
-        <y>7</y>
-        <z>-3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.207800284</x>
-        <y>-0.0320037529</y>
-        <z>-0.0068026036</z>
-        <w>-0.9776239</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>336</x>
-          <y>3.749961</y>
-          <z>-1.75232159E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7790042</Time>
-      <DistanceTravelled>16.2885761</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>3</y>
-        <z>3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.3330925</x>
-        <y>-0.0616514049</y>
-        <z>-0.02183193</z>
-        <w>-0.9406231</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>320.999969</x>
-          <y>7.499964</y>
-          <z>-5.493011E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.47449684</Time>
-      <DistanceTravelled>52.7535973</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-1</x>
-        <y>6</y>
-        <z>6</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.0582615137</x>
-        <y>-0.143243462</y>
-        <z>-0.008447496</z>
-        <w>-0.987935</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>353.25</x>
-          <y>16.4999657</y>
-          <z>-4.29866418E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.04370034</Time>
-      <DistanceTravelled>22.3819389</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-3</x>
-        <y>2</y>
-        <z>-6</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.143480375</x>
-        <y>-0.0129544483</y>
-        <z>-0.00187830627</z>
-        <w>0.9895666</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>343.5</x>
-          <y>358.499969</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.9822605</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>1</x>
-        <y>4</y>
-        <z>-4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -1493,202 +1022,192 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.9940015</Time>
-      <DistanceTravelled>48.73314</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>2</y>
-        <z>-1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.2699535</x>
-        <y>-0.100603983</y>
-        <z>-0.0283732619</z>
-        <w>-0.9571828</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>328.5</x>
-          <y>12.0000019</y>
-          <z>2.50332334E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7289332</Time>
-      <DistanceTravelled>30.9379311</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-8</x>
-        <y>2</y>
-        <z>-3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.0129989414</x>
-        <y>-0.117527395</y>
-        <z>-0.00153852662</z>
-        <w>-0.9929834</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>358.5</x>
-          <y>13.5000076</y>
-          <z>-4.00343545E-08</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.04372144</Time>
-      <DistanceTravelled>69.63661</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
         <x>0</x>
-        <y>1</y>
-        <z>-7</z>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.03565347</x>
-        <y>-0.418337017</y>
-        <z>-0.0164364763</z>
-        <w>0.907443</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>355.5</x>
-          <y>310.5</y>
-          <z>1.070517E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.8946002</Time>
-      <DistanceTravelled>107.467751</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-4</x>
-        <y>1</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.06504486</x>
-        <y>-0.104304932</y>
-        <z>-0.00683651</z>
-        <w>0.99239254</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>352.5</x>
-          <y>347.999969</y>
-          <z>-2.15285212E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.01056635</Time>
-      <DistanceTravelled>25.97723</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-2</x>
-        <y>4</y>
-        <z>2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.0130178928</x>
-        <y>0.104520015</y>
-        <z>-0.00136824243</z>
-        <w>-0.9944367</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>1.50000048</x>
-          <y>347.999939</y>
-          <z>1.33447857E-08</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.6295342</Time>
-      <DistanceTravelled>13.9695759</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>6</x>
-        <y>6</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.104150355</x>
-        <y>-0.0845171362</y>
-        <z>-0.008883109</z>
-        <w>0.9909241</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>348</x>
-          <y>350.249939</y>
-          <z>3.273178E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.02742934</Time>
-      <DistanceTravelled>82.03788</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>3</x>
-        <y>5</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.2280677</x>
-        <y>-0.299999982</y>
-        <z>-0.0741036</z>
-        <w>-0.9233059</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>332.25</x>
-          <y>35.9999657</y>
-          <z>-1.92945913E-06</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.8614653</Time>
-      <DistanceTravelled>31.4416523</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>5</y>
+        <x>0</x>
+        <y>0</y>
         <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.0976059139</x>
-        <y>-0.09106059</y>
-        <z>-0.008968682</z>
-        <w>-0.9910099</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>348.75</x>
-          <y>10.4999514</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.762243</Time>
-      <DistanceTravelled>33.1505623</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>8</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.1665143</x>
-        <y>-0.17960383</y>
-        <z>-0.0308616944</z>
-        <w>0.9690526</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>340.499939</x>
-          <y>338.999939</y>
-          <z>2.26431254E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.620996654</Time>
+      <Time>0</Time>
       <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>9</y>
-        <z>6</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
         <x>0</x>
@@ -1703,611 +1222,2232 @@
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.24251151</Time>
-      <DistanceTravelled>74.87413</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>4</y>
-        <z>6</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.219899148</x>
-        <y>-0.0828868</y>
-        <z>-0.0187553763</z>
-        <w>-0.971814</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>334.5</x>
-          <y>9.75001049</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.8945996</Time>
-      <DistanceTravelled>15.3063192</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-7</x>
-        <y>2</y>
-        <z>-1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.09754512</x>
-        <y>-0.09754522</y>
-        <z>-0.009607361</z>
-        <w>-0.9903926</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>348.75</x>
-          <y>11.2500076</y>
-          <z>-1.088125E-07</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.12667739</Time>
-      <DistanceTravelled>137.440048</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>8</x>
-        <y>1</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.0370078571</x>
-        <y>-0.333550066</y>
-        <z>-0.0131051941</z>
-        <w>0.941914558</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>355.5</x>
-          <y>320.999939</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.20936644</Time>
-      <DistanceTravelled>73.73449</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>2</x>
-        <y>7</y>
-        <z>8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-9.53966836E-11</x>
-        <y>0.207911149</y>
-        <z>2.02771376E-11</z>
-        <w>0.978147745</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>-1.11758736E-08</x>
-          <y>23.9999352</y>
-          <z>3.9756934E-16</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.49114811</Time>
-      <DistanceTravelled>30.9764214</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-3</x>
-        <y>1</y>
-        <z>4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.15627031</x>
-        <y>-0.0452344678</y>
-        <z>-0.00716443453</z>
-        <w>-0.986652</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>342</x>
-          <y>5.24993753</y>
-          <z>-5.610692E-08</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.828678131</Time>
-      <DistanceTravelled>25.3960953</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-2</x>
-        <y>6</y>
-        <z>7</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-9.705824E-11</x>
-        <y>0.09801804</y>
-        <z>-9.55948948E-12</z>
-        <w>-0.99518466</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>1.11758709E-08</x>
-          <y>348.7499</y>
-          <z>-2.98177E-16</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7624127</Time>
-      <DistanceTravelled>18.5022583</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-3</x>
-        <y>2</y>
-        <z>5</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.123768918</x>
-        <y>-0.06489881</y>
-        <z>-0.008112336</z>
-        <w>0.9901533</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>345.75</x>
-          <y>352.4999</y>
+          <x>0</x>
+          <y>0</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.728934</Time>
-      <DistanceTravelled>12.0263557</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>8</x>
-        <y>1</y>
-        <z>1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.0390706956</x>
-        <y>-0.09794247</y>
-        <z>-0.003848163</z>
-        <w>0.994417369</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>355.5</x>
-          <y>348.7499</y>
-          <z>5.352585E-08</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.06026649</Time>
-      <DistanceTravelled>46.9549026</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>5</x>
-        <y>5</y>
-        <z>-8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>9.332837E-11</x>
-        <y>0.290284038</y>
-        <z>-2.831079E-11</z>
-        <w>0.956940532</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>1.11758709E-08</x>
-          <y>33.7499237</y>
-          <z>-5.96354E-16</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_0">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>5.503461</Time>
-      <DistanceTravelled>128.414108</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>8</y>
-        <z>-4</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.0148059661</x>
-        <y>0.0073103616</y>
-        <z>-0.00527565274</z>
-        <w>0.9998498</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>358.3078</x>
-          <y>0.846930861</y>
-          <z>359.382874</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_1">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.25256038</Time>
-      <DistanceTravelled>68.99878</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>8</x>
-        <y>8</y>
-        <z>-2</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.382863134</x>
-        <y>0.2180906</y>
-        <z>0.0314674675</z>
-        <w>0.8971411</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>315.5176</x>
-          <y>30.9773769</y>
-          <z>351.087341</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_2">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.98536396</Time>
-      <DistanceTravelled>21.549593</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-6</x>
-        <y>3</y>
-        <z>-8</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.274373</x>
-        <y>0.361244142</y>
-        <z>0.0308211371</z>
-        <w>0.8906583</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>329.268677</x>
-          <y>46.7976074</y>
-          <z>350.4014</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_3">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.98605621</Time>
-      <DistanceTravelled>121.58342</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>8</x>
-        <y>1</y>
-        <z>7</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.148581624</x>
-        <y>-0.6060069</y>
-        <z>-0.020412825</z>
-        <w>0.781192958</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>345.114838</x>
-          <y>283.2408</y>
-          <z>8.820293</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_4">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>2.13275838</Time>
-      <DistanceTravelled>164.194153</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>4</x>
-        <y>6</y>
-        <z>5</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.00182604487</x>
-        <y>-0.209115848</y>
-        <z>-0.0119967964</z>
-        <w>-0.9778155</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>359.5079</x>
-          <y>24.1373081</y>
-          <z>1.30063629</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_5">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7595535</Time>
-      <DistanceTravelled>21.8060322</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>5</y>
-        <z>-1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.150107473</x>
-        <y>-0.128281936</y>
-        <z>-0.0422227643</z>
-        <w>-0.979402244</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>342.25</x>
-          <y>14.50885</y>
-          <z>2.65964842</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_6">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.7466745</Time>
-      <DistanceTravelled>46.81139</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>7</x>
-        <y>6</y>
+        <x>0</x>
+        <y>0</y>
         <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.197297022</x>
-        <y>-0.262242138</y>
-        <z>0.0164047033</z>
-        <w>0.9444754</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>338.649017</x>
-          <y>327.3969</y>
-          <z>8.30113</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_7">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>1.4260155</Time>
-      <DistanceTravelled>86.0952148</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-2</x>
-        <y>3</y>
-        <z>-1</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.181306466</x>
-        <y>0.273062</y>
-        <z>0.0523968264</z>
-        <w>0.9433026</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>338.243134</x>
-          <y>32.2907</y>
-          <z>359.9899</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_8">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.73273</Time>
-      <DistanceTravelled>44.78914</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>6</x>
-        <y>5</y>
-        <z>3</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>-0.118659168</x>
-        <y>-0.102262177</y>
-        <z>0.03180831</z>
-        <w>0.9871427</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>346.8347</x>
-          <y>347.5788</y>
-          <z>5.1301</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Visual_9">
-      <ParticipantID>TEST</ParticipantID>
-      <Time>0.746136665</Time>
-      <DistanceTravelled>35.8217735</DistanceTravelled>
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>7</x>
-        <y>6</y>
-        <z>9</z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </Location>
       <PlayerDirection>
-        <x>0.13116385</x>
-        <y>-0.19795686</y>
-        <z>-0.0318361931</z>
-        <w>-0.970873535</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>344.496857</x>
-          <y>22.9687424</y>
-          <z>0.5879584</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_0">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_1">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_2">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_3">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_4">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_5">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_6">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_7">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_8">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_9">
+      <Time>0</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_0">
       <ParticipantID>TEST</ParticipantID>
-      <Time>5.11664867</Time>
-      <DistanceTravelled>844.694763</DistanceTravelled>
+      <Time>0.6663783</Time>
+      <DistanceTravelled>0</DistanceTravelled>
       <Location>
-        <x>-9</x>
-        <y>9</y>
-        <z>-9</z>
+        <x>-7</x>
+        <y>4</y>
+        <z>7</z>
       </Location>
       <PlayerDirection>
-        <x>0.0327183865</x>
-        <y>0.006543335</y>
-        <z>0.000214206622</z>
-        <w>-0.9994432</w>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
         <eulerAngles>
-          <x>356.25</x>
-          <y>359.2498</y>
-          <z>3.34220918E-09</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_1">
       <ParticipantID>TEST</ParticipantID>
-      <Time>2.950146</Time>
-      <DistanceTravelled>400.872437</DistanceTravelled>
+      <Time>1.3087672</Time>
+      <DistanceTravelled>101.22847</DistanceTravelled>
       <Location>
-        <x>3</x>
-        <y>7</y>
-        <z>3</z>
+        <x>-4</x>
+        <y>5</y>
+        <z>8</z>
       </Location>
       <PlayerDirection>
-        <x>0.157354385</x>
-        <y>0.8313372</y>
-        <z>0.29439196</z>
-        <w>-0.444355071</w>
+        <x>-0.0989811346</x>
+        <y>-0.319679916</y>
+        <z>-0.0335997269</z>
+        <w>0.941742361</w>
         <eulerAngles>
-          <x>321</x>
-          <y>236.249573</y>
-          <z>-2.197203E-06</z>
+          <x>348</x>
+          <y>322.499847</y>
+          <z>-4.364237E-07</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_2">
       <ParticipantID>TEST</ParticipantID>
-      <Time>2.69389033</Time>
-      <DistanceTravelled>295.462463</DistanceTravelled>
+      <Time>0.6459579</Time>
+      <DistanceTravelled>14.3977537</DistanceTravelled>
       <Location>
-        <x>1</x>
-        <y>7</y>
-        <z>-1</z>
+        <x>-8</x>
+        <y>1</y>
+        <z>2</z>
       </Location>
       <PlayerDirection>
-        <x>-0.353956044</x>
-        <y>0.146041051</y>
-        <z>0.0560599044</z>
-        <w>0.922087</w>
+        <x>-0.134018227</x>
+        <y>-0.2059525</y>
+        <z>-0.0284866784</z>
+        <w>0.968922734</w>
         <eulerAngles>
-          <x>318</x>
-          <y>17.9996128</y>
-          <z>-5.744329E-07</z>
+          <x>344.25</x>
+          <y>335.999817</y>
+          <z>-2.217697E-07</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_3">
       <ParticipantID>TEST</ParticipantID>
-      <Time>0.870966</Time>
-      <DistanceTravelled>23.8124084</DistanceTravelled>
+      <Time>0.8122849</Time>
+      <DistanceTravelled>54.34912</DistanceTravelled>
       <Location>
-        <x>-4</x>
-        <y>8</y>
+        <x>-7</x>
+        <y>7</y>
         <z>-5</z>
       </Location>
       <PlayerDirection>
-        <x>-0.5313513</x>
-        <y>0.1426263</y>
-        <z>0.09130102</z>
-        <w>0.830052853</w>
+        <x>-0.0168071687</x>
+        <y>-0.5168091</y>
+        <z>-0.0101487869</z>
+        <w>0.8558755</w>
         <eulerAngles>
-          <x>294.75</x>
-          <y>19.4996166</y>
-          <z>-2.03930153E-06</z>
+          <x>357.75</x>
+          <y>297.749756</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_4">
       <ParticipantID>TEST</ParticipantID>
-      <Time>1.26742864</Time>
-      <DistanceTravelled>140.55986</DistanceTravelled>
+      <Time>1.34124219</Time>
+      <DistanceTravelled>186.118942</DistanceTravelled>
       <Location>
         <x>-7</x>
-        <y>4</y>
+        <y>8</y>
+        <z>-5</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.191902548</x>
+        <y>-0.7529043</y>
+        <z>-0.25009343</z>
+        <w>0.577721238</w>
+        <eulerAngles>
+          <x>323.249969</x>
+          <y>254.999756</y>
+          <z>-4.26219049E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.6461008</Time>
+      <DistanceTravelled>4.66962242</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>7</y>
+        <z>1</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.207089886</x>
+        <y>-0.7517305</y>
+        <z>-0.277328044</z>
+        <w>0.5613414</w>
+        <eulerAngles>
+          <x>319.5</x>
+          <y>253.499756</y>
+          <z>1.12278676E-05</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.5740062</Time>
+      <DistanceTravelled>187.748489</DistanceTravelled>
+      <Location>
+        <x>-8</x>
+        <y>9</y>
+        <z>6</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.4245126</x>
+        <y>-0.0177787561</y>
+        <z>-0.008337634</z>
+        <w>0.905209064</w>
+        <eulerAngles>
+          <x>309.75</x>
+          <y>357.749664</y>
+          <z>7.510452E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.12653375</Time>
+      <DistanceTravelled>65.41186</DistanceTravelled>
+      <Location>
+        <x>3</x>
+        <y>1</y>
+        <z>-1</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.27322</x>
+        <y>-0.371240079</y>
+        <z>-0.115273245</z>
+        <w>0.8799112</w>
+        <eulerAngles>
+          <x>325.499969</x>
+          <y>314.249634</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.0932467</Time>
+      <DistanceTravelled>107.216507</DistanceTravelled>
+      <Location>
+        <x>-3</x>
+        <y>9</y>
         <z>8</z>
       </Location>
       <PlayerDirection>
-        <x>0.2761148</x>
-        <y>0.7184076</y>
-        <z>0.396173418</z>
-        <w>-0.5006973</w>
+        <x>0.08069746</x>
+        <y>-0.469416261</y>
+        <z>-0.0431333557</z>
+        <w>-0.8782231</w>
         <eulerAngles>
-          <x>302.25</x>
-          <y>249.749466</y>
+          <x>349.5</x>
+          <y>56.24962</y>
+          <z>1.30247042E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.50756752</Time>
+      <DistanceTravelled>145.533737</DistanceTravelled>
+      <Location>
+        <x>-7</x>
+        <y>5</y>
+        <z>2</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.280221671</x>
+        <y>-0.15619038</y>
+        <z>-0.0462656878</z>
+        <w>0.9460126</w>
+        <eulerAngles>
+          <x>327</x>
+          <y>341.249634</y>
+          <z>5.09004167E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.79558122</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>-3</x>
+        <y>2</y>
+        <z>3</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.60663164</Time>
+      <DistanceTravelled>397.50415</DistanceTravelled>
+      <Location>
+        <x>3</x>
+        <y>9</y>
+        <z>-2</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.06994522</x>
+        <y>-0.232842013</y>
+        <z>-0.0167924669</z>
+        <w>0.969850659</w>
+        <eulerAngles>
+          <x>351.75</x>
+          <y>332.999847</y>
+          <z>2.15675342E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>2.35246682</Time>
+      <DistanceTravelled>166.32901</DistanceTravelled>
+      <Location>
+        <x>6</x>
+        <y>2</y>
+        <z>-1</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.465576917</x>
+        <y>-0.413239628</y>
+        <z>-0.260734826</z>
+        <w>-0.737894654</w>
+        <eulerAngles>
+          <x>295.5</x>
+          <y>58.499855</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.68977261</Time>
+      <DistanceTravelled>324.567261</DistanceTravelled>
+      <Location>
+        <x>6</x>
+        <y>8</y>
+        <z>1</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.09690179</x>
+        <y>-0.619399667</y>
+        <z>-0.07742481</z>
+        <w>-0.7752158</w>
+        <eulerAngles>
+          <x>345.75</x>
+          <y>77.24991</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.01052427</Time>
+      <DistanceTravelled>50.9537849</DistanceTravelled>
+      <Location>
+        <x>2</x>
+        <y>1</y>
+        <z>-2</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.3366905</x>
+        <y>-0.4151487</y>
+        <z>-0.168785453</z>
+        <w>-0.8281319</w>
+        <eulerAngles>
+          <x>315.75</x>
+          <y>53.2499</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_5">
       <ParticipantID>TEST</ParticipantID>
-      <Time>2.591837</Time>
-      <DistanceTravelled>296.022522</DistanceTravelled>
+      <Time>0.596400261</Time>
+      <DistanceTravelled>26.24874</DistanceTravelled>
       <Location>
-        <x>6</x>
-        <y>8</y>
-        <z>-3</z>
+        <x>-7</x>
+        <y>6</y>
+        <z>5</z>
       </Location>
       <PlayerDirection>
-        <x>0.106254</x>
-        <y>0.288494736</y>
-        <z>0.03223241</z>
-        <w>-0.951021552</w>
+        <x>0.147027165</x>
+        <y>-0.424760222</y>
+        <z>-0.0701282</z>
+        <w>-0.89053005</w>
         <eulerAngles>
-          <x>347.25</x>
-          <y>326.2494</y>
-          <z>2.1883946E-07</z>
+          <x>341.25</x>
+          <y>50.9999123</y>
+          <z>-2.25405688E-06</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_6">
       <ParticipantID>TEST</ParticipantID>
-      <Time>1.89555323</Time>
-      <DistanceTravelled>188.418472</DistanceTravelled>
+      <Time>1.65597367</Time>
+      <DistanceTravelled>142.3283</DistanceTravelled>
+      <Location>
+        <x>-8</x>
+        <y>1</y>
+        <z>-5</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.195060715</x>
+        <y>-0.338555366</y>
+        <z>-0.07196216</z>
+        <w>0.917688966</w>
+        <eulerAngles>
+          <x>336</x>
+          <y>319.4998</y>
+          <z>-3.7382863E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.109891</Time>
+      <DistanceTravelled>97.1533</DistanceTravelled>
+      <Location>
+        <x>-6</x>
+        <y>3</y>
+        <z>-8</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.00776299136</x>
+        <y>0.805085242</y>
+        <z>-0.0105391471</z>
+        <w>-0.5930148</w>
+        <eulerAngles>
+          <x>1.50000072</x>
+          <y>252.7497</y>
+          <z>5.33791429E-08</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.728787541</Time>
+      <DistanceTravelled>25.3143978</DistanceTravelled>
+      <Location>
+        <x>-7</x>
+        <y>2</y>
+        <z>3</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.039931953</x>
+        <y>-0.895975053</y>
+        <z>-0.08232864</z>
+        <w>0.4345758</w>
+        <eulerAngles>
+          <x>349.5</x>
+          <y>231.749664</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.960839868</Time>
+      <DistanceTravelled>80.96567</DistanceTravelled>
+      <Location>
+        <x>-1</x>
+        <y>2</y>
+        <z>-1</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.0593953356</x>
+        <y>-0.417766243</y>
+        <z>-0.0273818541</z>
+        <w>0.9061975</w>
+        <eulerAngles>
+          <x>352.5</x>
+          <y>310.499634</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.6051432</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>2</x>
+        <y>2</y>
+        <z>-6</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.24297488</Time>
+      <DistanceTravelled>244.48761</DistanceTravelled>
+      <Location>
+        <x>-10</x>
+        <y>5</y>
+        <z>5</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.06694438</x>
+        <y>-0.9329699</y>
+        <z>-0.243455231</z>
+        <w>-0.25654456</w>
+        <eulerAngles>
+          <x>330.75</x>
+          <y>149.250031</y>
+          <z>2.446354E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.78920066</Time>
+      <DistanceTravelled>211.1059</DistanceTravelled>
+      <Location>
+        <x>3</x>
+        <y>9</y>
+        <z>-5</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.147482947</x>
+        <y>-0.4189233</y>
+        <z>-0.06916454</z>
+        <w>0.8932907</w>
+        <eulerAngles>
+          <x>341.25</x>
+          <y>309.75</y>
+          <z>4.508113E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>3.329902</Time>
+      <DistanceTravelled>252.296066</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>5</y>
+        <z>2</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.266508639</x>
+        <y>-0.732121</y>
+        <z>-0.46866107</z>
+        <w>-0.4163277</w>
+        <eulerAngles>
+          <x>294.75</x>
+          <y>120.74971</y>
+          <z>4.07860352E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>2.302457</Time>
+      <DistanceTravelled>539.8821</DistanceTravelled>
+      <Location>
+        <x>8</x>
+        <y>3</y>
+        <z>-2</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.302681983</x>
+        <y>-0.0249460768</y>
+        <z>-0.007925341</z>
+        <w>-0.952732146</w>
+        <eulerAngles>
+          <x>324.75</x>
+          <y>2.99974871</y>
+          <z>-1.30683645E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.02702558</Time>
+      <DistanceTravelled>121.175377</DistanceTravelled>
       <Location>
         <x>-9</x>
+        <y>5</y>
+        <z>3</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.0803660154</x>
+        <y>-0.635934532</y>
+        <z>-0.0668394342</z>
+        <w>-0.764631331</w>
+        <eulerAngles>
+          <x>348</x>
+          <y>79.49977</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.6566515</Time>
+      <DistanceTravelled>177.57724</DistanceTravelled>
+      <Location>
+        <x>-9</x>
+        <y>5</y>
+        <z>5</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.1634419</x>
+        <y>-0.434885</y>
+        <z>-0.0806012</z>
+        <w>0.881853342</w>
+        <eulerAngles>
+          <x>339</x>
+          <y>307.4997</y>
+          <z>-9.1451534E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.4969078</Time>
+      <DistanceTravelled>5.6046114</DistanceTravelled>
+      <Location>
+        <x>-3</x>
+        <y>6</y>
+        <z>4</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.1429098</x>
+        <y>-0.401731551</y>
+        <z>-0.06362802</z>
+        <w>0.9022971</w>
+        <eulerAngles>
+          <x>342</x>
+          <y>311.9997</y>
+          <z>-4.4885536E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.679232836</Time>
+      <DistanceTravelled>36.2724876</DistanceTravelled>
+      <Location>
+        <x>0</x>
+        <y>7</y>
+        <z>8</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.28433007</x>
+        <y>-0.192831114</y>
+        <z>-0.05849469</z>
+        <w>0.9373105</w>
+        <eulerAngles>
+          <x>326.25</x>
+          <y>336.7497</y>
+          <z>-1.02682486E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.63985908</Time>
+      <DistanceTravelled>36.3792877</DistanceTravelled>
+      <Location>
+        <x>1</x>
+        <y>2</y>
+        <z>4</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.252486169</x>
+        <y>-0.00633540843</y>
+        <z>-0.00165320293</z>
+        <w>0.967578351</w>
+        <eulerAngles>
+          <x>330.75</x>
+          <y>359.2497</y>
+          <z>-4.586914E-08</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.23235631</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>2</x>
+        <y>8</y>
+        <z>8</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>20.9900074</Time>
+      <DistanceTravelled>4196.995</DistanceTravelled>
+      <Location>
+        <x>-6</x>
+        <y>2</y>
+        <z>1</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.257733375</x>
+        <y>-0.08838349</y>
+        <z>-0.0236822944</z>
+        <w>-0.9618737</w>
+        <eulerAngles>
+          <x>330</x>
+          <y>10.4999666</y>
+          <z>2.46463259E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.994001269</Time>
+      <DistanceTravelled>90.29546</DistanceTravelled>
+      <Location>
+        <x>3</x>
+        <y>1</y>
+        <z>-8</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.0580790229</x>
+        <y>-0.458828658</y>
+        <z>-0.03007323</z>
+        <w>0.8861144</w>
+        <eulerAngles>
+          <x>352.5</x>
+          <y>305.2499</y>
+          <z>-2.15285183E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.67314053</Time>
+      <DistanceTravelled>218.997787</DistanceTravelled>
+      <Location>
+        <x>8</x>
+        <y>9</y>
+        <z>-3</z>
+      </Location>
+      <PlayerDirection>
+        <x>2.46250745E-11</x>
+        <y>0.9675988</y>
+        <z>-9.436787E-11</z>
+        <w>0.252492666</w>
+        <eulerAngles>
+          <x>1.11758736E-08</x>
+          <y>150.749878</y>
+          <z>-3.975693E-16</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>3.41273737</Time>
+      <DistanceTravelled>335.0257</DistanceTravelled>
+      <Location>
+        <x>4</x>
         <y>3</y>
+        <z>-5</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.283714145</x>
+        <y>-0.629831254</y>
+        <z>-0.265727282</z>
+        <w>-0.6724641</w>
+        <eulerAngles>
+          <x>314.25</x>
+          <y>86.24999</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.07683372</Time>
+      <DistanceTravelled>97.06505</DistanceTravelled>
+      <Location>
+        <x>-6</x>
+        <y>1</y>
+        <z>-3</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.1395392</x>
+        <y>-0.813519657</y>
+        <z>-0.217982009</z>
+        <w>-0.5207672</w>
+        <eulerAngles>
+          <x>330</x>
+          <y>114.750061</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.57383358</Time>
+      <DistanceTravelled>295.279236</DistanceTravelled>
+      <Location>
+        <x>2</x>
+        <y>6</y>
         <z>9</z>
       </Location>
       <PlayerDirection>
-        <x>-0.3284562</x>
-        <y>0.637468338</y>
-        <z>0.346117049</z>
-        <w>0.60494107</w>
+        <x>-0.008947994</x>
+        <y>-0.729802</y>
+        <z>-0.009553688</z>
+        <w>0.6835333</w>
         <eulerAngles>
-          <x>303</x>
-          <y>92.99941</y>
+          <x>358.5</x>
+          <y>266.249939</y>
           <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_7">
       <ParticipantID>TEST</ParticipantID>
-      <Time>1.78727245</Time>
-      <DistanceTravelled>174.535156</DistanceTravelled>
+      <Time>2.534642</Time>
+      <DistanceTravelled>229.356216</DistanceTravelled>
       <Location>
-        <x>8</x>
-        <y>7</y>
-        <z>-8</z>
+        <x>1</x>
+        <y>5</y>
+        <z>-7</z>
       </Location>
       <PlayerDirection>
-        <x>0.08683614</x>
-        <y>0.313917637</y>
-        <z>0.0288449787</z>
-        <w>-0.9450308</w>
+        <x>0.181985855</x>
+        <y>-0.0514577627</y>
+        <z>-0.009537136</z>
+        <w>-0.9819075</w>
         <eulerAngles>
-          <x>349.5</x>
-          <y>323.2494</y>
-          <z>2.17078409E-07</z>
+          <x>339</x>
+          <y>5.999788</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_8">
       <ParticipantID>TEST</ParticipantID>
-      <Time>1.43699467</Time>
-      <DistanceTravelled>167.074661</DistanceTravelled>
+      <Time>1.67284822</Time>
+      <DistanceTravelled>184.592239</DistanceTravelled>
       <Location>
-        <x>6</x>
-        <y>4</y>
-        <z>8</z>
+        <x>0</x>
+        <y>9</y>
+        <z>6</z>
       </Location>
       <PlayerDirection>
-        <x>-0.138513267</x>
-        <y>0.8409731</y>
-        <z>0.2551064</z>
-        <w>0.4566171</w>
+        <x>0.0375103578</x>
+        <y>-0.9194306</y>
+        <z>-0.3808407</z>
+        <w>-0.090558</w>
         <eulerAngles>
-          <x>326.25</x>
-          <y>122.999374</y>
-          <z>1.02682486E-06</z>
+          <x>315</x>
+          <y>168.749756</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>
     <Target Name="Audio_Visual_9">
       <ParticipantID>TEST</ParticipantID>
-      <Time>1.48787737</Time>
-      <DistanceTravelled>145.610641</DistanceTravelled>
+      <Time>1.822299</Time>
+      <DistanceTravelled>206.458832</DistanceTravelled>
       <Location>
-        <x>-1</x>
-        <y>5</y>
+        <x>3</x>
+        <y>2</y>
+        <z>-9</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.3766204</x>
+        <y>-0.00606542174</y>
+        <z>-0.00246599619</z>
+        <w>0.9263445</w>
+        <eulerAngles>
+          <x>315.75</x>
+          <y>359.2497</y>
+          <z>-3.72474567E-08</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_0">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.6590177</Time>
+      <DistanceTravelled>0</DistanceTravelled>
+      <Location>
+        <x>-4</x>
+        <y>4</y>
+        <z>3</z>
+      </Location>
+      <PlayerDirection>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_1">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.19273782</Time>
+      <DistanceTravelled>224.386673</DistanceTravelled>
+      <Location>
+        <x>7</x>
+        <y>2</y>
+        <z>-4</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.188108265</x>
+        <y>0.2600411</y>
+        <z>0.05172539</z>
+        <w>-0.9456841</w>
+        <eulerAngles>
+          <x>337.5</x>
+          <y>329.249969</y>
+          <z>4.62058921E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_2">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.59033871</Time>
+      <DistanceTravelled>178.017</DistanceTravelled>
+      <Location>
+        <x>-3</x>
+        <y>9</y>
+        <z>-7</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.04439573</x>
+        <y>0.7327498</y>
+        <z>0.0480269641</z>
+        <w>0.6773479</w>
+        <eulerAngles>
+          <x>352.5</x>
+          <y>94.49992</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_3">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>2.020847</Time>
+      <DistanceTravelled>312.749054</DistanceTravelled>
+      <Location>
+        <x>3</x>
+        <y>4</y>
+        <z>5</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.1691195</x>
+        <y>0.818568647</y>
+        <z>0.458420426</z>
+        <w>-0.301984638</w>
+        <eulerAngles>
+          <x>301.5</x>
+          <y>220.499847</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_4">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.95479953</Time>
+      <DistanceTravelled>228.105591</DistanceTravelled>
+      <Location>
+        <x>6</x>
+        <y>9</y>
+        <z>-6</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.1613593</x>
+        <y>0.1351814</y>
+        <z>0.0223185383</z>
+        <w>0.9773388</w>
+        <eulerAngles>
+          <x>341.25</x>
+          <y>15.7498922</y>
+          <z>-2.25405628E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_5">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.85546708</Time>
+      <DistanceTravelled>176.968369</DistanceTravelled>
+      <Location>
+        <x>5</x>
+        <y>4</y>
+        <z>-8</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.234868556</x>
+        <y>0.751774669</y>
+        <z>0.346572846</z>
+        <w>0.50946933</w>
+        <eulerAngles>
+          <x>310.5</x>
+          <y>111.749886</y>
+          <z>2.629228E-06</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_6">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>0.828334153</Time>
+      <DistanceTravelled>42.16491</DistanceTravelled>
+      <Location>
+        <x>-8</x>
+        <y>4</y>
         <z>-5</z>
       </Location>
       <PlayerDirection>
-        <x>-0.1453526</x>
-        <y>0.24336426</y>
-        <z>0.0369140059</z>
-        <w>0.958271265</w>
+        <x>-0.09100072</x>
+        <y>0.892254055</y>
+        <z>0.208044469</z>
+        <w>0.390280783</w>
         <eulerAngles>
-          <x>342.75</x>
-          <y>28.4993668</y>
-          <z>4.46992573E-07</z>
+          <x>333.75</x>
+          <y>132.749908</y>
+          <z>-9.5194514E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_7">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.17623317</Time>
+      <DistanceTravelled>139.542877</DistanceTravelled>
+      <Location>
+        <x>3</x>
+        <y>1</y>
+        <z>3</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.118483126</x>
+        <y>0.727245033</y>
+        <z>0.129869491</z>
+        <w>-0.66348356</w>
+        <eulerAngles>
+          <x>339.75</x>
+          <y>264.749939</y>
+          <z>-9.10020731E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_8">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.35844481</Time>
+      <DistanceTravelled>124.019</DistanceTravelled>
+      <Location>
+        <x>-6</x>
+        <y>8</y>
+        <z>7</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.0580844879</x>
+        <y>0.162612453</y>
+        <z>0.009589758</z>
+        <w>0.984932244</w>
+        <eulerAngles>
+          <x>353.25</x>
+          <y>18.7499428</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Audio_Visual_9">
+      <ParticipantID>TEST</ParticipantID>
+      <Time>1.54053414</Time>
+      <DistanceTravelled>124.30661</DistanceTravelled>
+      <Location>
+        <x>4</x>
+        <y>3</y>
+        <z>-6</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.241134435</x>
+        <y>0.2869339</y>
+        <z>0.0748743862</z>
+        <w>-0.924076259</w>
+        <eulerAngles>
+          <x>330.75</x>
+          <y>325.499939</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
     </Target>

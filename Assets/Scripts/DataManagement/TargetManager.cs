@@ -97,9 +97,11 @@ public class TargetManager : MonoBehaviour {
                 {
                     // save the participants File
                     TargetData.Save(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
+
                 }
 
                 // return to main Menu
+                Camera.main.GetComponent<RecordRotation>().SaveData();
                 SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
             }
     }

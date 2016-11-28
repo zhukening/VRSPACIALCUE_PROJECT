@@ -118,6 +118,7 @@
     <None Include="Assets\Data\Results_.xml" />
     <None Include="Assets\Data\Results_PLAYER.xml" />
     <None Include="Assets\Data\Results_TEST.xml" />
+    <None Include="Assets\Data\RotationLog_TEST.xml" />
     <None Include="Assets\Materials\UIOverlay.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

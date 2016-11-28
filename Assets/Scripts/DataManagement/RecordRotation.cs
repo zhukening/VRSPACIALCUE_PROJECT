@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 
 public class RecordRotation : MonoBehaviour {
 
     Quaternion rotationLast; //The value of the rotation at the previous update
     Quaternion CameraRotation; 
     Vector3 rotationDelta; //The difference in rotation between now and the previous update
- 
+
+    private RotationContainer RotationList = new RotationContainer();
+
     //Vector3 TotalRotation; - unused due to error
 
     public float sumRotation = 0;
@@ -18,24 +22,23 @@ public class RecordRotation : MonoBehaviour {
     }
 
     void Update()
-    {
+    {  
+        // update the rotation Log for this session
+        RotationList.RotationLog.Add(new RotationData());
+        RotationList.RotationLog[RotationList.RotationLog.Count - 1].deltaTime = Time.deltaTime;
+        RotationList.RotationLog[RotationList.RotationLog.Count - 1].qRotation = Camera.main.transform.rotation;
+
         CameraRotation = Camera.main.transform.rotation;
-        /* my attempt at calculating the total rotation as a quaternion but it doesn't work
 
-        rotationDelta = CameraRotation.eulerAngles - rotationLast.eulerAngles;
-
-        // make all rotations positive for easy addition
-        if (rotationDelta.x < 0){ rotationDelta.x = rotationDelta.x * -1; }
-        if (rotationDelta.y < 0) { rotationDelta.y = rotationDelta.y *  - 1; }
-        if (rotationDelta.z < 0) { rotationDelta.z = rotationDelta.z *  -1; }
-
-        TotalRotation += rotationDelta;
-        Debug.Log(rotationDelta);
-        Debug.Log(TotalRotation);
-
-        
-        */
         sumRotation += Quaternion.Angle(CameraRotation, rotationLast);
         rotationLast = Camera.main.transform.rotation;
+    }
+
+    public void SaveData()
+    {
+        Debug.Log("data saved");
+        GameObject PersistantGameObject = GameObject.Find("persistantGO");
+        string ParticipantID = PersistantGameObject.GetComponent<ExperimentData>().participantID;
+        RotationList.Save(Path.Combine(Application.dataPath, "Data\\RotationLog_" + ParticipantID + ".xml"));
     }
 }

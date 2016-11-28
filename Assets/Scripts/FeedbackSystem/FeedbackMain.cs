@@ -13,13 +13,13 @@ public class FeedbackMain : MonoBehaviour {
     public bool VbFeedbackEnabled;
 
     // standard directions enum
-    public enum Directions { Up, Down, Left, Right, Null }
+    public enum Directions { Up, Down, Left, Right, UpLeft, UpRight, DownLeft, DownRight, Null }
 
     // private variables
     private Directions TargetDirection;
     private VisualFeedback VisualFeedbackScript;
     private VibroHapticFeedback VibroHapticFeebackScript;
-    private float FOV = 0.7f; // 
+    private float FOV = 0.7f; 
 
     private Component MouseControls;
 
@@ -85,6 +85,7 @@ public class FeedbackMain : MonoBehaviour {
             else
             {
                 // set direction of target
+                // need to add additional triggers for enumeration
                 if (directionVector.y > 0)
                 {
                     //turn right

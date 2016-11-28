@@ -12,7 +12,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
@@ -118,6 +118,8 @@
     <Compile Include="Assets\Bag\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\Scripts\Aim.cs" />
     <Compile Include="Assets\Scripts\DataManagement\RecordRotation.cs" />
+    <Compile Include="Assets\Scripts\DataManagement\RotationContainer.cs" />
+    <Compile Include="Assets\Scripts\DataManagement\RotationData.cs" />
     <Compile Include="Assets\Scripts\DataManagement\Target.cs" />
     <Compile Include="Assets\Scripts\DataManagement\TargetContainer.cs" />
     <Compile Include="Assets\Scripts\DataManagement\TargetManager.cs" />
@@ -141,6 +143,7 @@
     <None Include="Assets\Data\Results_.xml" />
     <None Include="Assets\Data\Results_PLAYER.xml" />
     <None Include="Assets\Data\Results_TEST.xml" />
+    <None Include="Assets\Data\RotationLog_TEST.xml" />
     <None Include="Assets\Materials\UIOverlay.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
