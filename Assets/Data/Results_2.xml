@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Targets>
+    <Target Name="Visual_0">
+      <ParticipantID>2</ParticipantID>
+      <Time>2.45547962</Time>
+      <DistanceTravelled>0.749645054</DistanceTravelled>
+      <Location>
+        <x>1</x>
+        <y>2</y>
+        <z>-8</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.00654493831</x>
+        <y>0</y>
+        <z>0</z>
+        <w>0.9999786</w>
+        <eulerAngles>
+          <x>359.25</x>
+          <y>0</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="Visual_1">
+      <ParticipantID>2</ParticipantID>
+      <Time>1.87185562</Time>
+      <DistanceTravelled>254.561783</DistanceTravelled>
+      <Location>
+        <x>-4</x>
+        <y>5</y>
+        <z>7</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.004482919</x>
+        <y>0.990039</y>
+        <z>0.136938974</z>
+        <w>0.03241053</w>
+        <eulerAngles>
+          <x>344.25</x>
+          <y>176.25</y>
+          <z>5.5442424E-08</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+  </Targets>
+</TargetCollection>

@@ -55,6 +55,8 @@ public class TargetManager : MonoBehaviour {
                     break;
                 }
         }
+
+
     }
 	
 	// Update is called once per frame
@@ -110,19 +112,35 @@ public class TargetManager : MonoBehaviour {
                 // update current Scenario
                 experimentData.NextScenario();
                 
+                // Fade out and load the next scene
                 if (experimentData.GetCurrentExperiment() != ExperimentData.Experiment.NULL)
                 {
-                    // Reload Experiment Room with new settings
-                    SceneManager.LoadScene("ExperimentRoom", LoadSceneMode.Single);
+                    StartCoroutine(DelayLoad(false));
                 }
                 else
                 {
-                    // return to main Menu
-                    Camera.main.GetComponent<RecordRotation>().SaveData();
-                    SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+                    StartCoroutine(DelayLoad(true));
                 }
 
             }
     }
 
+    IEnumerator DelayLoad(bool expFinnished)
+    {
+        // Reload Experiment Room with new settings
+        GameObject.Find("FadePlane").GetComponent<Fade>().FadeOut();
+
+        yield return new WaitForSeconds(2);
+
+        if (expFinnished)
+        {
+            Camera.main.GetComponent<RecordRotation>().SaveData();
+            SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        }
+        else
+        {
+            SceneManager.LoadScene("ExperimentRoom", LoadSceneMode.Single);
+        }
+
+    }
 }

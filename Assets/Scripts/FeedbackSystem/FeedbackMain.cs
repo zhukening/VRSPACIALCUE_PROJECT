@@ -44,13 +44,17 @@ public class FeedbackMain : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        TargetDirection = getDirection();
+        if (target != null)
+        {
+            TargetDirection = getDirection();
+        }
         updateFeedbackSystem();
     }
 
     // Get the direction of target based on camera forward vector
     private Directions getDirection ()
     {
+
         // Get position transform as V3
         Vector3 relativePosition = target.transform.position - Camera.main.transform.position;
         Vector3 heading = Vector3.Normalize(relativePosition);

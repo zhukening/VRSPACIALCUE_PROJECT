@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Targets>
+    <Target Name="vHaptic_0">
+      <ParticipantID>4</ParticipantID>
+      <Time>1.84233367</Time>
+      <DistanceTravelled>40.6388359</DistanceTravelled>
+      <Location>
+        <x>-5</x>
+        <y>4</y>
+        <z>-2</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.04576356</x>
+        <y>0.0392183065</y>
+        <z>0.00179804082</z>
+        <w>-0.998180568</w>
+        <eulerAngles>
+          <x>354.75</x>
+          <y>355.500031</y>
+          <z>-1.339641E-08</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+    <Target Name="vHaptic_1">
+      <ParticipantID>4</ParticipantID>
+      <Time>1.392066</Time>
+      <DistanceTravelled>98.3334351</DistanceTravelled>
+      <Location>
+        <x>7</x>
+        <y>7</y>
+        <z>4</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.185410157</x>
+        <y>0.6568073</y>
+        <z>0.171391547</z>
+        <w>-0.7105295</w>
+        <eulerAngles>
+          <x>330.75</x>
+          <y>274.499939</y>
+          <z>-9.785416E-07</z>
+        </eulerAngles>
+      </PlayerDirection>
+    </Target>
+  </Targets>
+</TargetCollection>

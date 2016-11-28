@@ -123,6 +123,7 @@
     <Compile Include="Assets\Scripts\DataManagement\Target.cs" />
     <Compile Include="Assets\Scripts\DataManagement\TargetContainer.cs" />
     <Compile Include="Assets\Scripts\DataManagement\TargetManager.cs" />
+    <Compile Include="Assets\Scripts\Fade.cs" />
     <Compile Include="Assets\Scripts\FeedbackSystem\FeedbackMain.cs" />
     <Compile Include="Assets\Scripts\FeedbackSystem\MouseLook.cs" />
     <Compile Include="Assets\Scripts\FeedbackSystem\VibroHapticFeedback.cs" />
@@ -141,6 +142,11 @@
     <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Data\Results_.xml" />
+    <None Include="Assets\Data\Results_2.xml" />
+    <None Include="Assets\Data\Results_3.xml" />
+    <None Include="Assets\Data\Results_4.xml" />
+    <None Include="Assets\Data\Results_5.xml" />
+    <None Include="Assets\Data\RotationLog_5.xml" />
     <None Include="Assets\Materials\UIOverlay.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
