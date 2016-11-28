@@ -7,11 +7,9 @@ public class FeedbackMain : MonoBehaviour {
 
     public GameObject target;
 
-    // configure experiment
-    public bool VFeedbackEnabled;
-    public bool AFeedbackEnabled;
-    public bool VbFeedbackEnabled;
-
+    // store the current Experiment
+    private ExperimentData.Experiment CurrentExperiment;
+    
     // standard directions enum
     public enum Directions { Up, Down, Left, Right, UpLeft, UpRight, DownLeft, DownRight, Null }
 
@@ -28,10 +26,7 @@ public class FeedbackMain : MonoBehaviour {
 
         // get experiment Type from persistantGO
         GameObject PersistantGameObject = GameObject.Find("persistantGO");
-        VFeedbackEnabled = PersistantGameObject.GetComponent<ExperimentData>().VisualFeedback;
-        AFeedbackEnabled = PersistantGameObject.GetComponent<ExperimentData>().AudioFeedback;
-        VbFeedbackEnabled = PersistantGameObject.GetComponent<ExperimentData>().VibroHapticFeedback;
-
+        CurrentExperiment = PersistantGameObject.GetComponent<ExperimentData>().GetCurrentExperiment();
 
         if (!UnityEngine.VR.VRDevice.isPresent)
         {
@@ -108,24 +103,32 @@ public class FeedbackMain : MonoBehaviour {
     // n.b. all feedback systems should accept targetDirection of type FeedbackMain.Directions
     void updateFeedbackSystem()
     {
-        if (VFeedbackEnabled)
+        switch (CurrentExperiment)
         {
-            // trigger update function in visual feedback system
-            VisualFeedbackScript = GetComponentInChildren<VisualFeedback>();  // get the feedback Script
-            VisualFeedbackScript.newDirection = TargetDirection; // update its target direction
-        }
+            case ExperimentData.Experiment.Visual:
+                {
+                    // trigger update function in visual feedback system
+                    VisualFeedbackScript = GetComponentInChildren<VisualFeedback>();  // get the feedback Script
+                    VisualFeedbackScript.newDirection = TargetDirection; // update its target direction
+                    break;
+                }
+            case ExperimentData.Experiment.Audio:
+                {
+                    AudioListener.pause = false;
+                    break;
+                }
+            case ExperimentData.Experiment.VibroHaptic:
+                {
+                    // Trigger update function in vibration feedback system
+                    VibroHapticFeebackScript = GetComponentInChildren<VibroHapticFeedback>();  // get the feedback Script
+                    VibroHapticFeebackScript.newDirection = TargetDirection;
+                    break;
+                }
+            case ExperimentData.Experiment.NULL:
+                {
+                    break;
+                }
 
-        if (AFeedbackEnabled)
-        {
-            AudioListener.pause = false;
-            // trigger update function in audio feedback system
-        }
-
-        if (VbFeedbackEnabled)
-        {
-            // Trigger update function in vibration feedback system
-            VibroHapticFeebackScript = GetComponentInChildren<VibroHapticFeedback>();  // get the feedback Script
-            VibroHapticFeebackScript.newDirection = TargetDirection;
         }
     }
 }

@@ -16,13 +16,14 @@ public class TargetManager : MonoBehaviour {
     private string TargetPrefix;
 
     // maxiumum number of targets to spawn
-    public int MaxTargets = 10;
+    public int MaxTargets = 2;
 
     // the current targetNumber
     private int TargetNumber;
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
 
         // set target Default
         TargetNumber = 0;
@@ -32,22 +33,28 @@ public class TargetManager : MonoBehaviour {
         experimentData = PersistantGameObject.GetComponent<ExperimentData>();
         ParticipantID = experimentData.participantID;
 
-        // get the type of experiment being conducted
-        bool visualFeedback = experimentData.VisualFeedback;
-        bool audioFeedback = experimentData.AudioFeedback;
-        bool vibroHapticFeedback = experimentData.VibroHapticFeedback;
-
-        // update targetPrefix to match experiment
-        if (visualFeedback){
-            TargetPrefix = "Visual_" + TargetPrefix;
+        switch (experimentData.GetCurrentExperiment())
+        {
+            case ExperimentData.Experiment.Visual:
+                {
+                    TargetPrefix = "Visual_" + TargetPrefix;
+                    break;
+                }
+            case ExperimentData.Experiment.Audio:
+                {
+                    TargetPrefix = "Audio_" + TargetPrefix;
+                    break;
+                }
+            case ExperimentData.Experiment.VibroHaptic:
+                {
+                    TargetPrefix = "vHaptic_" + TargetPrefix;
+                    break;
+                }
+            case ExperimentData.Experiment.NULL:
+                {
+                    break;
+                }
         }
-        if (audioFeedback){
-            TargetPrefix = "Audio_" + TargetPrefix;
-        }
-        if (vibroHapticFeedback){
-            TargetPrefix = "vHaptic_" + TargetPrefix;
-        }
-
     }
 	
 	// Update is called once per frame
@@ -100,9 +107,21 @@ public class TargetManager : MonoBehaviour {
 
                 }
 
-                // return to main Menu
-                Camera.main.GetComponent<RecordRotation>().SaveData();
-                SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+                // update current Scenario
+                experimentData.NextScenario();
+                
+                if (experimentData.GetCurrentExperiment() != ExperimentData.Experiment.NULL)
+                {
+                    // Reload Experiment Room with new settings
+                    SceneManager.LoadScene("ExperimentRoom", LoadSceneMode.Single);
+                }
+                else
+                {
+                    // return to main Menu
+                    Camera.main.GetComponent<RecordRotation>().SaveData();
+                    SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+                }
+
             }
     }
 

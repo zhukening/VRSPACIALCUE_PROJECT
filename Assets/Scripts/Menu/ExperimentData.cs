@@ -7,11 +7,10 @@ public class ExperimentData : MonoBehaviour {
 
     static ExperimentData persistantExperimentData;
 
-    // configure experiment - stored as individual booleans to enable combination experiments in the future.
-    public bool VisualFeedback;
-    public bool AudioFeedback;
-    public bool VibroHapticFeedback;
-
+    public enum Experiment { NULL, Visual, Audio, VibroHaptic }
+    public Experiment[] ExperimentOrder = new Experiment[3];  
+    private int currentExperimentIndex;
+    
     public string participantID; // store the Participant ID
 
 	// Use this for initialization
@@ -34,4 +33,26 @@ public class ExperimentData : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    public Experiment GetCurrentExperiment()
+    {
+        if (currentExperimentIndex < (ExperimentOrder.Length ))
+        {
+            return ExperimentOrder[currentExperimentIndex];
+        }
+        else
+        {
+            return Experiment.NULL;
+        }
+
+    }
+
+    public void NextScenario()
+    {
+        if (currentExperimentIndex < (ExperimentOrder.Length))
+        {
+            // increment current Experiment
+            currentExperimentIndex++;
+        }
+    }
 }

@@ -20,35 +20,50 @@ public class changeLevel : MonoBehaviour {
         PersistantGameObject.GetComponent<ExperimentData>().participantID = participantIDField.text;
     }
 
-    public void StartVisualFeedbackExperiment()
+    public void StartExperiment()
     {
-        // set feedback type and store in the persistant Game Object
-        PersistantGameObject.GetComponent<ExperimentData>().VisualFeedback = true;
-        PersistantGameObject.GetComponent<ExperimentData>().AudioFeedback = false;
-        PersistantGameObject.GetComponent<ExperimentData>().VibroHapticFeedback = false;
+        // get participandID
+        int ParticipantID = int.Parse(PersistantGameObject.GetComponent<ExperimentData>().participantID);
 
-        // Load Level
-        SceneManager.LoadScene("ExperimentRoom",LoadSceneMode.Single);
-    }
+        // configure experiment Order
+        if (ParticipantID % 6 == 0)
+        {
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Visual;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Audio;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.VibroHaptic;
+        }
+        else if (ParticipantID % 5 == 0)
+        {
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Audio;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.VibroHaptic;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Visual;
+        }
+        else if (ParticipantID % 4 == 0)
+        {
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.VibroHaptic;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Visual;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Audio;
+        }
+        else if (ParticipantID % 3 == 0)
+        {
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.VibroHaptic;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Audio;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Visual;
+        }
+        else if (ParticipantID % 2 == 0)
+        {
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Visual;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.VibroHaptic;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Audio;
+        }
+        else if (ParticipantID % 1 == 0)
+        {
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Audio;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Visual;
+            PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.VibroHaptic;
+        }
 
-    public void StartAudioFeedbackExperiment()
-    {
-        // set feedback type and store in the persistant Game Object
-        PersistantGameObject.GetComponent<ExperimentData>().VisualFeedback = false;
-        PersistantGameObject.GetComponent<ExperimentData>().AudioFeedback = true;
-        PersistantGameObject.GetComponent<ExperimentData>().VibroHapticFeedback = false;
         // Load Level
         SceneManager.LoadScene("ExperimentRoom", LoadSceneMode.Single);
     }
-
-    public void StartVHapticFeedbackExperiment()
-    {
-        // set feedback type and store in the persistant Game Object
-        PersistantGameObject.GetComponent<ExperimentData>().VisualFeedback = false;
-        PersistantGameObject.GetComponent<ExperimentData>().AudioFeedback = false;
-        PersistantGameObject.GetComponent<ExperimentData>().VibroHapticFeedback = true;
-        // Load Level
-        SceneManager.LoadScene("ExperimentRoom", LoadSceneMode.Single);
-    }
-
 }
