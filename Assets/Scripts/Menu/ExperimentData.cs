@@ -55,4 +55,9 @@ public class ExperimentData : MonoBehaviour {
             currentExperimentIndex++;
         }
     }
+
+    public int GetExperimentIndex()
+    {
+        return currentExperimentIndex;
+    }
 }

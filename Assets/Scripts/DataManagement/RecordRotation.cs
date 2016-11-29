@@ -36,7 +36,6 @@ public class RecordRotation : MonoBehaviour {
 
     public void SaveData()
     {
-        Debug.Log("data saved");
         GameObject PersistantGameObject = GameObject.Find("persistantGO");
         string ParticipantID = PersistantGameObject.GetComponent<ExperimentData>().participantID;
         RotationList.Save(Path.Combine(Application.dataPath, "Data\\RotationLog_" + ParticipantID + ".xml"));

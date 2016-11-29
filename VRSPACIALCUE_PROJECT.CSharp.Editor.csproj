@@ -115,12 +115,11 @@
     <None Include="Assets\Bag\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Data\Results_.xml" />
-    <None Include="Assets\Data\Results_2.xml" />
-    <None Include="Assets\Data\Results_3.xml" />
     <None Include="Assets\Data\Results_4.xml" />
     <None Include="Assets\Data\Results_5.xml" />
-    <None Include="Assets\Data\RotationLog_5.xml" />
+    <None Include="Assets\Data\TargetSets\TargetSet0.xml" />
+    <None Include="Assets\Data\TargetSets\TargetSet1.xml" />
+    <None Include="Assets\Data\TargetSets\TargetSet2.xml" />
     <None Include="Assets\Materials\UIOverlay.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

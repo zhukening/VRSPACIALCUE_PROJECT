@@ -15,9 +15,6 @@ public class TargetManager : MonoBehaviour {
     private GameObject Player;
     private string TargetPrefix;
 
-    // maxiumum number of targets to spawn
-    public int MaxTargets = 2;
-
     // the current targetNumber
     private int TargetNumber;
 
@@ -56,6 +53,16 @@ public class TargetManager : MonoBehaviour {
                 }
         }
 
+        // load target location set
+        TargetData = TargetContainer.Load(Path.Combine(Application.dataPath, "Data\\TargetSets\\TargetSet" + experimentData.GetExperimentIndex() + ".xml"));
+
+        // spawn first target
+
+        // Create Target based on number stored in Location 
+        GameObject newTarget = (GameObject)Instantiate(TargetPrefab, TargetData.Targets[TargetNumber].Location, Quaternion.identity);
+        // update feedback system with new target
+        Player.GetComponentInChildren<FeedbackMain>().target = newTarget;
+        Camera.main.GetComponent<RecordRotation>().sumRotation = 0; //reset sum rotation
 
     }
 	
@@ -66,70 +73,68 @@ public class TargetManager : MonoBehaviour {
 
     public void SpawnNextTarget(float Timer)
     {
-            // Collect data and store in Data Structure
-            TargetData.Targets.Add(new Target());    
-            TargetData.Targets[TargetNumber].Name = TargetPrefix + TargetNumber;
-            TargetData.Targets[TargetNumber].Time = Timer;
-            TargetData.Targets[TargetNumber].ParticipantID = ParticipantID;
-            TargetData.Targets[TargetNumber].PlayerDirection = Camera.main.transform.rotation;
-            TargetData.Targets[TargetNumber].DistanceTravelled = Camera.main.GetComponent<RecordRotation>().sumRotation;  // in degrees
+        // Collect data and store in Data Structure for the last target destroyed
+        TargetData.Targets[TargetNumber].Name = TargetPrefix + "_" + TargetNumber;
+        TargetData.Targets[TargetNumber].TargetSet = experimentData.GetExperimentIndex();
+        TargetData.Targets[TargetNumber].Time = Timer;
+        TargetData.Targets[TargetNumber].ParticipantID = ParticipantID;
+        TargetData.Targets[TargetNumber].PlayerDirection = Camera.main.transform.rotation;
+        TargetData.Targets[TargetNumber].DistanceTravelled = Camera.main.GetComponent<RecordRotation>().sumRotation;  // in degrees
 
-            // should we wish to use a fixed set of locations we can replace the random numbers here with a file read.
-            TargetData.Targets[TargetNumber].Location = new Vector3(Random.Range(-10, 10), Random.Range(1, 10), Random.Range(-10, 10));
-            
-            if (TargetNumber < MaxTargets -1)
+        // load in next Target 
+        TargetNumber++;
+
+        if (TargetNumber < TargetData.Targets.Count)
+        {
+
+
+            // Create Target based on number stored in Location 
+            GameObject newTarget = (GameObject)Instantiate(TargetPrefab, TargetData.Targets[TargetNumber].Location, Quaternion.identity);
+            // update feedback system with new target
+            Player.GetComponentInChildren<FeedbackMain>().target = newTarget;
+
+            Camera.main.GetComponent<RecordRotation>().sumRotation = 0; //reset sum rotation
+        }
+        else
+        {
+            // Save the results to Data\Results_XXXX.xml and reload main menu
+            string resultsFile = Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml");
+
+            if (File.Exists(resultsFile))
             {
-                // Create Target based on number stored in Location 
-                GameObject newTarget = (GameObject)Instantiate(TargetPrefab, TargetData.Targets[TargetNumber].Location, Quaternion.identity);
-                // update feedback system with new target
-                Player.GetComponentInChildren<FeedbackMain>().target = newTarget;
-
-                Camera.main.GetComponent<RecordRotation>().sumRotation = 0; //reset sum rotation
-                // increment Target Number
-                TargetNumber++;
+                // load existing Data
+                var existingData = TargetContainer.Load(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
+                // Append new data to existing file
+                existingData.Targets.AddRange(TargetData.Targets);
+                // Save appended File
+                existingData.Save(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
             }
             else
             {
-                // Save the results to Data\Results_XXXX.xml and reload main menu
-                string resultsFile = Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml");
-
-                if (File.Exists(resultsFile))
-                {
-                    // load existing Data
-                    var existingData = TargetContainer.Load(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
-                    // Append new data to existing file
-                    existingData.Targets.AddRange(TargetData.Targets);
-                    // Save appended File
-                    existingData.Save(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
-                }
-                else
-                {
-                    // save the participants File
-                    TargetData.Save(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
-
-                }
-
-                // update current Scenario
-                experimentData.NextScenario();
-                
-                // Fade out and load the next scene
-                if (experimentData.GetCurrentExperiment() != ExperimentData.Experiment.NULL)
-                {
-                    StartCoroutine(DelayLoad(false));
-                }
-                else
-                {
-                    StartCoroutine(DelayLoad(true));
-                }
-
+                // save the participants File
+                TargetData.Save(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
             }
+
+            // update current Scenario
+            experimentData.NextScenario();
+                
+            // Fade out and load the next scene
+            if (experimentData.GetCurrentExperiment() != ExperimentData.Experiment.NULL)
+            {
+                StartCoroutine(DelayLoad(false));
+            }
+            else
+            {
+                StartCoroutine(DelayLoad(true));
+            }
+
+        }
     }
 
     IEnumerator DelayLoad(bool expFinnished)
     {
         // Reload Experiment Room with new settings
         GameObject.Find("FadePlane").GetComponent<Fade>().FadeOut();
-
         yield return new WaitForSeconds(2);
 
         if (expFinnished)
@@ -141,6 +146,5 @@ public class TargetManager : MonoBehaviour {
         {
             SceneManager.LoadScene("ExperimentRoom", LoadSceneMode.Single);
         }
-
     }
 }

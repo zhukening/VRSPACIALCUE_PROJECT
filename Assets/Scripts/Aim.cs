@@ -6,11 +6,13 @@ using System.Collections;
 public class Aim : MonoBehaviour
 {
     public VRStandardAssets.Utils.VRInteractiveItem m_InteractiveItem;
+    public int GazeTriggerTime = 1;
 
     private Renderer rend;
     private float timer=0;
 
     private GameObject Manager;
+    bool staring; // to trigger on stare
 
     void Start()
     {
@@ -32,11 +34,13 @@ public class Aim : MonoBehaviour
     public void OnGazeEnter()
     {
         rend.material.color = Color.red;
+        StartCoroutine(Stare()); // trigger the gaze timer
     }
 
     public void OnGazeExit()
     {
         rend.material.color = Color.white;
+        staring = false;
     }
 
     public void OnGazeTrigger()
@@ -46,11 +50,19 @@ public class Aim : MonoBehaviour
         // update Target manager that we have been hit
         GameObject.Find("Manager").GetComponent <TargetManager>().SpawnNextTarget(timer);
 
-        // CODE Moved to TargetManager.cs
-        //GameObject newTarget = (GameObject) Instantiate(obj, new Vector3(Random.Range(-5, 5), Random.Range(0, 4), Random.Range(-5, 5)), Quaternion.identity);  // needs to be replaced with a preprogrammed table per participant
-        //Debug.Log(timer); // print out time taken to find box
-        //GameObject.Find("manager").GetComponent<data_write>().write_time(timer); // writes the time taken to file - to be replaced by array update
-
         Destroy(gameObject); // self destruct
+    }
+
+    IEnumerator Stare()
+    {
+        staring = true;
+
+        yield return new WaitForSeconds(GazeTriggerTime);
+        // are we still staring after the timer
+        if (staring)
+        {
+            OnGazeTrigger();
+        }
+
     }
 }

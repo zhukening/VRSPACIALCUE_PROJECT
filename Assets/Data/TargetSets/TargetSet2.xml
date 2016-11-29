@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Targets>
+    <Target Name="A1">
+      <Location>
+        <x>-6</x>
+        <y>3</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+	<Target Name="A2">
+      <Location>
+        <x>1</x>
+        <y>2</y>
+        <z>3</z>
+      </Location>
+    </Target>
+  </Targets>
+</TargetCollection>
+	

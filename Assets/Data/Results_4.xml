@@ -1,47 +1,93 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Targets>
-    <Target Name="vHaptic_0">
+    <Target Name="vHaptic__0">
       <ParticipantID>4</ParticipantID>
-      <Time>1.84233367</Time>
-      <DistanceTravelled>40.6388359</DistanceTravelled>
+      <Time>1.99151552</Time>
+      <DistanceTravelled>131.715088</DistanceTravelled>
       <Location>
-        <x>-5</x>
-        <y>4</y>
-        <z>-2</z>
+        <x>-6</x>
+        <y>3</y>
+        <z>-7</z>
       </Location>
       <PlayerDirection>
-        <x>0.04576356</x>
-        <y>0.0392183065</y>
-        <z>0.00179804082</z>
-        <w>-0.998180568</w>
+        <x>-0.07101974</x>
+        <y>-0.880036831</y>
+        <z>-0.139384121</z>
+        <w>0.448401034</w>
         <eulerAngles>
-          <x>354.75</x>
-          <y>355.500031</y>
-          <z>-1.339641E-08</z>
+          <x>342</x>
+          <y>233.999985</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
+      <TargetSet>0</TargetSet>
     </Target>
-    <Target Name="vHaptic_1">
+    <Target Name="vHaptic__1">
       <ParticipantID>4</ParticipantID>
-      <Time>1.392066</Time>
-      <DistanceTravelled>98.3334351</DistanceTravelled>
+      <Time>2.004566</Time>
+      <DistanceTravelled>232.866562</DistanceTravelled>
       <Location>
-        <x>7</x>
-        <y>7</y>
-        <z>4</z>
+        <x>1</x>
+        <y>2</y>
+        <z>3</z>
       </Location>
       <PlayerDirection>
-        <x>0.185410157</x>
-        <y>0.6568073</y>
-        <z>0.171391547</z>
-        <w>-0.7105295</w>
+        <x>0.143465012</x>
+        <y>-0.0194303915</y>
+        <z>-0.00281727384</z>
+        <w>-0.9894606</w>
         <eulerAngles>
-          <x>330.75</x>
-          <y>274.499939</y>
-          <z>-9.785416E-07</z>
+          <x>343.5</x>
+          <y>2.24998617</y>
+          <z>0</z>
         </eulerAngles>
       </PlayerDirection>
+      <TargetSet>0</TargetSet>
+    </Target>
+    <Target Name="Visual__0">
+      <ParticipantID>4</ParticipantID>
+      <Time>5.02381325</Time>
+      <DistanceTravelled>345.7689</DistanceTravelled>
+      <Location>
+        <x>-6</x>
+        <y>3</y>
+        <z>-7</z>
+      </Location>
+      <PlayerDirection>
+        <x>0.0615295023</x>
+        <y>0.874376833</y>
+        <z>0.1151139</z>
+        <w>-0.46736294</w>
+        <eulerAngles>
+          <x>345</x>
+          <y>236.249878</y>
+          <z>0</z>
+        </eulerAngles>
+      </PlayerDirection>
+      <TargetSet>1</TargetSet>
+    </Target>
+    <Target Name="Visual__1">
+      <ParticipantID>4</ParticipantID>
+      <Time>4.7049365</Time>
+      <DistanceTravelled>209.463867</DistanceTravelled>
+      <Location>
+        <x>1</x>
+        <y>2</y>
+        <z>3</z>
+      </Location>
+      <PlayerDirection>
+        <x>-0.0325398557</x>
+        <y>0.104470573</y>
+        <z>0.00342001254</z>
+        <w>0.993989646</w>
+        <eulerAngles>
+          <x>356.25</x>
+          <y>11.9997778</y>
+          <z>-2.67376734E-08</z>
+        </eulerAngles>
+      </PlayerDirection>
+      <TargetSet>1</TargetSet>
     </Target>
   </Targets>
 </TargetCollection>

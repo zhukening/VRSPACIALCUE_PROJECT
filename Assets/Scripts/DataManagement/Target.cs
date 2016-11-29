@@ -23,5 +23,7 @@ public class Target
 
     // player angle relative to player at spawn time
     public Quaternion PlayerDirection;
+    // which targetSet was used
+    public int TargetSet;
 
 }
