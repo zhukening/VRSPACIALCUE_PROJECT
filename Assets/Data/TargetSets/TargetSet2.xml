@@ -1,20 +1,145 @@
-<?xml version="1.0" encoding="Windows-1252"?>
-<TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Targets>
-    <Target Name="A1">
-      <Location>
-        <x>-6</x>
-        <y>3</y>
-        <z>-7</z>
-      </Location>
-    </Target>
-	<Target Name="A2">
-      <Location>
-        <x>1</x>
-        <y>2</y>
-        <z>3</z>
-      </Location>
-    </Target>
-  </Targets>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Targets>
+		<Target Name="C1">
+			<Location>
+				<x>6</x>
+				<y>2</y>
+				<z>5</z>
+			</Location>
+		</Target>
+		<Target Name="C2">
+			<Location>
+				<x>-8</x>
+				<y>2</y>
+				<z>2</z>
+			</Location>
+		</Target>
+		<Target Name="C3">
+			<Location>
+				<x>3</x>
+				<y>2</y>
+				<z>7</z>
+			</Location>
+		</Target>
+		<Target Name="C4">
+			<Location>
+				<x>-4</x>
+				<y>2</y>
+				<z>7</z>
+			</Location>
+		</Target>
+		<Target Name="C5">
+			<Location>
+				<x>6</x>
+				<y>2</y>
+				<z>5</z>
+			</Location>
+		</Target>
+		<Target Name="C6">
+			<Location>
+				<x>-3</x>
+				<y>2</y>
+				<z>-7</z>
+			</Location>
+		</Target>
+		<Target Name="C7">
+			<Location>
+				<x>8</x>
+				<y>2</y>
+				<z>-2</z>
+			</Location>
+		</Target>
+		<Target Name="C8">
+			<Location>
+				<x>4</x>
+				<y>2</y>
+				<z>7</z>
+			</Location>
+		</Target>
+		<Target Name="C9">
+			<Location>
+				<x>-6</x>
+				<y>2</y>
+				<z>-5</z>
+			</Location>
+		</Target>
+		<Target Name="C10">
+			<Location>
+				<x>6</x>
+				<y>2</y>
+				<z>5</z>
+			</Location>
+		</Target>
+		<Target Name="C11">
+			<Location>
+				<x>0</x>
+				<y>2</y>
+				<z>-8</z>
+			</Location>
+		</Target>
+		<Target Name="C12">
+			<Location>
+				<x>8</x>
+				<y>2</y>
+				<z>2</z>
+			</Location>
+		</Target>
+		<Target Name="C13">
+			<Location>
+				<x>-6</x>
+				<y>2</y>
+				<z>-5</z>
+			</Location>
+		</Target>
+		<Target Name="C14">
+			<Location>
+				<x>6</x>
+				<y>2</y>
+				<z>5</z>
+			</Location>
+		</Target>
+		<Target Name="C15">
+			<Location>
+				<x>6</x>
+				<y>2</y>
+				<z>-5</z>
+			</Location>
+		</Target>
+		<Target Name="C16">
+			<Location>
+				<x>-6</x>
+				<y>2</y>
+				<z>-5</z>
+			</Location>
+		</Target>
+		<Target Name="C17">
+			<Location>
+				<x>8</x>
+				<y>2</y>
+				<z>2</z>
+			</Location>
+		</Target>
+		<Target Name="C18">
+			<Location>
+				<x>4</x>
+				<y>2</y>
+				<z>7</z>
+			</Location>
+		</Target>
+		<Target Name="C19">
+			<Location>
+				<x>-6</x>
+				<y>2</y>
+				<z>-5</z>
+			</Location>
+		</Target>
+		<Target Name="C20">
+			<Location>
+				<x>0</x>
+				<y>2</y>
+				<z>-8</z>
+			</Location>
+		</Target>
+	</Targets>
 </TargetCollection>
-	

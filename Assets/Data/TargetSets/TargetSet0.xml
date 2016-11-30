@@ -3,16 +3,142 @@
   <Targets>
     <Target Name="A1">
       <Location>
-        <x>-6</x>
-        <y>3</y>
-        <z>-7</z>
+        <x>6</x>
+        <y>2</y>
+        <z>5</z>
       </Location>
     </Target>
 	<Target Name="A2">
       <Location>
-        <x>1</x>
+        <x>0</x>
         <y>2</y>
-        <z>3</z>
+        <z>-8</z>
+      </Location>
+    </Target>
+	<Target Name="A3">
+      <Location>
+        <x>3</x>
+        <y>2</y>
+        <z>7</z>
+      </Location>
+    </Target>
+		<Target Name="A4">
+      <Location>
+        <x>0</x>
+        <y>2</y>
+        <z>-8</z>
+      </Location>
+    </Target>
+		<Target Name="A5">
+      <Location>
+        <x>-8</x>
+        <y>2</y>
+        <z>-2</z>
+      </Location>
+    </Target>
+		<Target Name="A6">
+      <Location>
+        <x>-3</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+		<Target Name="A7">
+      <Location>
+        <x>8</x>
+        <y>2</y>
+        <z>-2</z>
+      </Location>
+    </Target>
+		<Target Name="A8">
+      <Location>
+        <x>3</x>
+        <y>2</y>
+        <z>7</z>
+      </Location>
+    </Target>
+		<Target Name="A9">
+      <Location>
+        <x>-8</x>
+        <y>2</y>
+        <z>-2</z>
+      </Location>
+    </Target>
+		<Target Name="A10">
+      <Location>
+        <x>8</x>
+        <y>2</y>
+        <z>2</z>
+      </Location>
+    </Target>
+		<Target Name="A11">
+      <Location>
+        <x>0</x>
+        <y>2</y>
+        <z>-8</z>
+      </Location>
+    </Target>
+		<Target Name="A12">
+      <Location>
+        <x>-8</x>
+        <y>2</y>
+        <z>2</z>
+      </Location>
+    </Target>
+		<Target Name="A13">
+      <Location>
+        <x>0</x>
+        <y>2</y>
+        <z>-8</z>
+      </Location>
+    </Target>
+		<Target Name="A14">
+      <Location>
+        <x>-4</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+		<Target Name="A15">
+      <Location>
+        <x>3</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+		<Target Name="A16">
+      <Location>
+        <x>-3</x>
+        <y>2</y>
+        <z>7</z>
+      </Location>
+    </Target>
+		<Target Name="A17">
+      <Location>
+        <x>-4</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+		<Target Name="A18">
+      <Location>
+        <x>6</x>
+        <y>2</y>
+        <z>4</z>
+      </Location>
+    </Target>
+		<Target Name="A19">
+      <Location>
+        <x>-4</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+		<Target Name="A20">
+      <Location>
+        <x>-8</x>
+        <y>2</y>
+        <z>2</z>
       </Location>
     </Target>
   </Targets>

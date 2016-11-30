@@ -1,20 +1,146 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Targets>
-    <Target Name="A1">
+    <Target Name="B1">
+      <Location>
+        <x>6</x>
+        <y>2</y>
+        <z>5</z>
+      </Location>
+    </Target>
+	<Target Name="B2">
+      <Location>
+        <x>8</x>
+        <y>2</y>
+        <z>-2</z>
+      </Location>
+    </Target>
+	<Target Name="B3">
+      <Location>
+        <x>-8</x>
+        <y>2</y>
+        <z>2</z>
+      </Location>
+    </Target>
+	<Target Name="B4">
       <Location>
         <x>-6</x>
-        <y>3</y>
+        <y>2</y>
+        <z>-5</z>
+      </Location>
+    </Target>
+	<Target Name="B5">
+      <Location>
+        <x>0</x>
+        <y>2</y>
+        <z>8</z>
+      </Location>
+    </Target>
+	<Target Name="B6">
+      <Location>
+        <x>8</x>
+        <y>2</y>
+        <z>2</z>
+      </Location>
+    </Target>
+	<Target Name="B7">
+      <Location>
+        <x>-8</x>
+        <y>2</y>
+        <z>2</z>
+      </Location>
+    </Target>
+	<Target Name="B8">
+      <Location>
+        <x>-3</x>
+        <y>2</y>
         <z>-7</z>
       </Location>
     </Target>
-	<Target Name="A2">
+	<Target Name="B9">
       <Location>
-        <x>1</x>
+        <x>0</x>
         <y>2</y>
-        <z>3</z>
+        <z>8</z>
       </Location>
     </Target>
+	<Target Name="B10">
+      <Location>
+        <x>-6</x>
+        <y>2</y>
+        <z>-5</z>
+      </Location>
+    </Target>
+	<Target Name="B11">
+      <Location>
+        <x>6</x>
+        <y>2</y>
+        <z>-5</z>
+      </Location>
+    </Target>
+	<Target Name="B12">
+      <Location>
+        <x>-3</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+	<Target Name="B13">
+      <Location>
+        <x>3</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+	<Target Name="B14">
+      <Location>
+        <x>0</x>
+        <y>2</y>
+        <z>8</z>
+      </Location>
+    </Target>
+	<Target Name="B15">
+      <Location>
+        <x>3</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+	<Target Name="B16">
+      <Location>
+        <x>8</x>
+        <y>2</y>
+        <z>1</z>
+      </Location>
+    </Target>
+	<Target Name="B17">
+      <Location>
+        <x>-6</x>
+        <y>2</y>
+        <z>5</z>
+      </Location>
+    </Target>
+	<Target Name="B18">
+      <Location>
+        <x>-4</x>
+        <y>2</y>
+        <z>-7</z>
+      </Location>
+    </Target>
+	<Target Name="B19">
+      <Location>
+        <x>-6</x>
+        <y>2</y>
+        <z>5</z>
+      </Location>
+    </Target>
+	<Target Name="B20">
+      <Location>
+        <x>6</x>
+        <y>2</y>
+        <z>-5</z>
+      </Location>
+    </Target>	
   </Targets>
 </TargetCollection>
 	
