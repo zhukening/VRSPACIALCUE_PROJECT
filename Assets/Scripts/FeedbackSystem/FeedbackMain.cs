@@ -61,9 +61,6 @@ public class FeedbackMain : MonoBehaviour {
 
         // get rotational transform 
         Vector3 directionVector = Vector3.Cross(Camera.main.transform.forward, heading);
-        
-        // calculate the magnitude of the turn - For measuring how far they had to move
-        //float AngleMag = Vector3.Angle(Camera.main.transform.forward, heading);  -- Unused 
 
         float distanceToTurn = Vector3.Dot(Camera.main.transform.forward, heading); // whether to display the UI
 
@@ -87,13 +84,33 @@ public class FeedbackMain : MonoBehaviour {
                 // need to add additional triggers for enumeration
                 if (directionVector.y > 0)
                 {
-                    //turn right
-                    return (Directions.Right);
+                    if (directionVector.y < 0.375) 
+                    {
+                        return (Directions.DownRight);
+                    }
+                    else if (directionVector.y < 0.628) 
+                    {
+                        return (Directions.Right);
+                    }
+                    else
+                    {
+                        return (Directions.UpRight); // cleanup
+                    }
                 }
                 else
                 {
-                    // turn Left
-                    return (Directions.Left);
+                    if (directionVector.y > -0.375) 
+                    {
+                        return (Directions.DownLeft);
+                    }
+                    else if (directionVector.y > -0.628)
+                    {
+                        return (Directions.Left);
+                    }
+                    else
+                    {
+                        return (Directions.UpLeft); // cleanup
+                    }
                 }
             }
         }

@@ -504,6 +504,11 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.7684905
       objectReference: {fileID: 0}
+    - target: {fileID: 108000010980093204, guid: 3f56adebe6e4b1044a529c31664b6a95,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f56adebe6e4b1044a529c31664b6a95, type: 2}
   m_IsPrefabParent: 0
@@ -768,7 +773,7 @@ Prefab:
     - target: {fileID: 114000010393150916, guid: 5802b7c9e750bbe49b8afd4122e81be5,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 81000012000804458, guid: 5802b7c9e750bbe49b8afd4122e81be5, type: 2}
@@ -841,6 +846,11 @@ Prefab:
         type: 2}
       propertyPath: AudioFeedback
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011347583550, guid: ade60ee9f50474b4898e4869cf100952,
+        type: 2}
+      propertyPath: ExperimentOrder.Array.data[0]
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ade60ee9f50474b4898e4869cf100952, type: 2}

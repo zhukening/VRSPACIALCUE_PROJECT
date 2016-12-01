@@ -48,15 +48,28 @@ public class VisualFeedback : MonoBehaviour {
             case FeedbackMain.Directions.Left:
                 VFLeft.SetActive(false);
                 break;
+            case FeedbackMain.Directions.DownLeft:
+                VFLeft.SetActive(false);
+                break;
+            case FeedbackMain.Directions.UpLeft:
+                VFLeft.SetActive(false);
+                break;
+            case FeedbackMain.Directions.DownRight:
+                VFRight.SetActive(false);
+                break;
+            case FeedbackMain.Directions.UpRight:
+                VFRight.SetActive(false);
+                break;
+
         }
         // turn on new indicator
         switch (newDirection)
         {
             case FeedbackMain.Directions.Up:
-                VFUp.SetActive(true);
+                //VFUp.SetActive(true);
                 break;
             case FeedbackMain.Directions.Down:
-                VFDown.SetActive(true);
+                //VFDown.SetActive(true);
                 break;
             case FeedbackMain.Directions.Right:
                 VFRight.SetActive(true);
@@ -64,9 +77,22 @@ public class VisualFeedback : MonoBehaviour {
             case FeedbackMain.Directions.Left:
                 VFLeft.SetActive(true);
                 break;
+            case FeedbackMain.Directions.DownLeft:
+                VFLeft.SetActive(true);
+                break;
+            case FeedbackMain.Directions.UpLeft:
+                VFLeft.SetActive(true);
+                break;
+            case FeedbackMain.Directions.DownRight:
+                VFRight.SetActive(true);
+                break;
+            case FeedbackMain.Directions.UpRight:
+                VFRight.SetActive(true);
+                break;
             case FeedbackMain.Directions.Null:
                 // Do nothing the target is visible
                 break;
+
         }
         currentDirection = newDirection;
     }
