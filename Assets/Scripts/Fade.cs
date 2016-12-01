@@ -11,9 +11,13 @@ public class Fade : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        FadeIn();
     }
-	
+
+    void Update()
+    {
+    }
+
+
     public void FadeIn()
     {
         gameObject.GetComponent<Image>().CrossFadeAlpha(0, FadeTime, false);

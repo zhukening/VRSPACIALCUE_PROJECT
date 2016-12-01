@@ -84,11 +84,15 @@ public class FeedbackMain : MonoBehaviour {
                 // need to add additional triggers for enumeration
                 if (directionVector.y > 0)
                 {
-                    if (directionVector.y < 0.375) 
+                    if (directionVector.y < 0.12) // 180-159 degrees = 21 degrees
+                    {
+                        return (Directions.Down); 
+                    }
+                    else if (directionVector.y < 0.375) 
                     {
                         return (Directions.DownRight);
                     }
-                    else if (directionVector.y < 0.628) 
+                    if (directionVector.y < 0.625)
                     {
                         return (Directions.Right);
                     }
@@ -99,11 +103,15 @@ public class FeedbackMain : MonoBehaviour {
                 }
                 else
                 {
-                    if (directionVector.y > -0.375) 
+                    if (directionVector.y > -0.12) 
+                    {
+                        return (Directions.Down);
+                    }
+                    else if (directionVector.y > -0.375)
                     {
                         return (Directions.DownLeft);
                     }
-                    else if (directionVector.y > -0.628)
+                    else if (directionVector.y > -0.625)
                     {
                         return (Directions.Left);
                     }

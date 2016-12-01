@@ -28,44 +28,48 @@ public class VibroHapticFeedback : MonoBehaviour {
 
     void UpdateIndicator()
     {
-        switch (newDirection)
+        if (sp.IsOpen)
         {
-            case FeedbackMain.Directions.Up:
-                // Trigger Vibration motor for Up Direction
-				sp.Write("8");
-                break;
-            case FeedbackMain.Directions.Down:
-                // Trigger Vibration motor for Down Direction
-                sp.Write("4");
-                break;
-            case FeedbackMain.Directions.Right:
-                // Trigger Vibration motor for Right Direction
-                sp.Write("6");
-                break;
-            case FeedbackMain.Directions.Left:
-                // Trigger Vibration motor for Left Direction
-                sp.Write("2");
-                break;
-			case FeedbackMain.Directions.UpLeft:
-                // Trigger Vibration motor for Up-left Direction
-                sp.Write("1");
-				break;
-			case FeedbackMain.Directions.UpRight:
-                // Trigger Vibration motor for UpRight Direction
-                sp.Write("7");
-                break;
-			case FeedbackMain.Directions.DownLeft:
-                // Trigger Vibration motor for DownLeft Direction
-                sp.Write("3");
-                break;
-			case FeedbackMain.Directions.DownRight:
-                // Trigger Vibration motor for DownRight Direction
-                sp.Write("5");
-                break;
-            case FeedbackMain.Directions.Null:
-                // Do nothing the target is visible
-				sp.Write("0");
-                break;
+            switch (newDirection)
+            {
+                case FeedbackMain.Directions.Up:
+                    // Trigger Vibration motor for Up Direction
+                    sp.Write("8");
+                    break;
+                case FeedbackMain.Directions.Down:
+                    // Trigger Vibration motor for Down Direction
+                    sp.Write("4");
+                    break;
+                case FeedbackMain.Directions.Right:
+                    // Trigger Vibration motor for Right Direction
+                    sp.Write("6");
+                    break;
+                case FeedbackMain.Directions.Left:
+                    // Trigger Vibration motor for Left Direction
+                    sp.Write("2");
+                    break;
+                case FeedbackMain.Directions.UpLeft:
+                    // Trigger Vibration motor for Up-left Direction
+                    sp.Write("1");
+                    break;
+                case FeedbackMain.Directions.UpRight:
+                    // Trigger Vibration motor for UpRight Direction
+                    sp.Write("7");
+                    break;
+                case FeedbackMain.Directions.DownLeft:
+                    // Trigger Vibration motor for DownLeft Direction
+                    sp.Write("3");
+                    break;
+                case FeedbackMain.Directions.DownRight:
+                    // Trigger Vibration motor for DownRight Direction
+                    sp.Write("5");
+                    break;
+                case FeedbackMain.Directions.Null:
+                    // Do nothing the target is visible
+                    sp.Write("0");
+                    break;
+            }
+            
         }
         currentDirection = newDirection;
     }
