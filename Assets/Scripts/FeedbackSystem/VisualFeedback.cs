@@ -69,7 +69,17 @@ public class VisualFeedback : MonoBehaviour {
                 //VFUp.SetActive(true);
                 break;
             case FeedbackMain.Directions.Down:
-                //VFDown.SetActive(true);
+                //randomize the indicator (Ken)
+                System.Random i = new System.Random();
+                int flag = i.Next(2);
+                if (flag == 1)
+                {
+                    VFLeft.SetActive(true);
+                }
+                else
+                {
+                    VFRight.SetActive(true);
+                }
                 break;
             case FeedbackMain.Directions.Right:
                 VFRight.SetActive(true);
