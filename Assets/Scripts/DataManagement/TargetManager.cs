@@ -80,7 +80,7 @@ public class TargetManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         // unpause if space pressed
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Time.timeScale == 0f)
         {
             Time.timeScale = 1;
             if (TrainingMode)
