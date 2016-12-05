@@ -71,16 +71,38 @@ public class TargetManager : MonoBehaviour {
         TargetData = TargetContainer.Load(Path.Combine(Application.dataPath, "Data\\TargetSets\\TargetSet" + experimentData.GetExperimentIndex() + ".xml"));
 
         UIText.text = "Starting Training: \n" + ExperimentType;
-        KeyInfo.enabled = true; // Hide keyinformation
+        KeyInfo.enabled = true; 
 
         Time.timeScale = 0; //pause 
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-        // unpause if space pressed
-        if (Input.GetKeyDown(KeyCode.Space) && Time.timeScale == 0f)
+
+    // Update is called once per frame
+    void Update() {
+        if (Time.timeScale == 0f)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Time.timeScale = 1;
+                if (TrainingMode)
+                {
+                    StartCoroutine(StartTraining());
+                }
+                else
+                {
+                    StartCoroutine(StartExperiment());
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Time.timeScale = 1;
+                TrainingMode = true;
+                StartCoroutine(StartTraining());
+
+            }
+        }
+            // unpause if space pressed
+            if (Input.GetKeyDown(KeyCode.Space) && Time.timeScale == 0f)
         {
             Time.timeScale = 1;
             if (TrainingMode)
@@ -91,6 +113,10 @@ public class TargetManager : MonoBehaviour {
             {
                 StartCoroutine(StartExperiment());
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
         }
     }
 
@@ -212,6 +238,8 @@ public class TargetManager : MonoBehaviour {
 
         GameObject.Find("FadePlane").GetComponent<Fade>().FadeIn();
         yield return new WaitForSeconds(2);
+        TargetNumber = 0;
+
         // spawn first target
 
         // generate random points on circle -http://answers.unity3d.com/questions/759542/get-coordinate-with-angle-and-distance.html
@@ -235,7 +263,9 @@ public class TargetManager : MonoBehaviour {
         GameObject.Find("FadePlane").GetComponent<Fade>().FadeOut();
         yield return new WaitForSeconds(2);
         UIText.text = "Training Complete \n \n Experiment: \n" + ExperimentType;
+        KeyInfo.text = "Press [SPACE] to start\n Press [R] to restart training";
         KeyInfo.enabled = true;
+
         TrainingMode = false;
 
         Time.timeScale = 0; // pause the system
