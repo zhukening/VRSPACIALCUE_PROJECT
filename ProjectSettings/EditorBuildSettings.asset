@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Project.unity
+    path: Assets/MainMenu.unity
   - enabled: 1
-    path: Assets/data.unity
+    path: Assets/Levels/data-Depricated.unity
+  - enabled: 1
+    path: Assets/Levels/ExperimentRoom.unity

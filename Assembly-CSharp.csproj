@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A97A9D18-4846-CA8A-FE62-C3798E8C7BE5}</ProjectGuid>
+    <ProjectGuid>{8BCAD69F-5DE5-65E3-3362-4E2F10473ED7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -89,72 +89,30 @@
      <Compile Include="Assets\Bag\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Bag\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Bag\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Scripts\SimpleAI.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Tool Extras\Scripts\CharacterMotion.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Tool Extras\Scripts\LookatRotate.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Tool Extras\Scripts\RotateThisObject.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Tool Extras\Scripts\TriggerExplosion.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Tool Extras\Scripts\spawner.cs" />
-     <Compile Include="Assets\DaiMangou\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
-     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
-     <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\FPS.cs" />
-     <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrController.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GazeInputModule.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrEye.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrHead.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrPostRender.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrPreRender.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrProfile.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrViewer.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\StereoController.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\StereoRenderEffect.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrGaze.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticle.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazePointer.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\AndroidDevice.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\BaseAndroidDevice.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\BaseVRDevice.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\EditorDevice.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\GvrDevice.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\iOSDevice.cs" />
      <Compile Include="Assets\Scripts\Aim.cs" />
-     <Compile Include="Assets\Scripts\MouseCheck.cs" />
+     <Compile Include="Assets\Scripts\DataManagement\RecordRotation.cs" />
+     <Compile Include="Assets\Scripts\DataManagement\Target.cs" />
+     <Compile Include="Assets\Scripts\DataManagement\TargetContainer.cs" />
+     <Compile Include="Assets\Scripts\DataManagement\TargetManager.cs" />
+     <Compile Include="Assets\Scripts\FeedbackSystem\FeedbackMain.cs" />
+     <Compile Include="Assets\Scripts\FeedbackSystem\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\FeedbackSystem\VibroHapticFeedback.cs" />
+     <Compile Include="Assets\Scripts\FeedbackSystem\VisualFeedback.cs" />
+     <Compile Include="Assets\Scripts\Menu\ExperimentData.cs" />
+     <Compile Include="Assets\Scripts\Menu\changeLevel.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
-     <Compile Include="Assets\Scripts\change_sence.cs" />
-     <Compile Include="Assets\Scripts\clear.cs" />
-     <Compile Include="Assets\Scripts\data_output.cs" />
-     <Compile Include="Assets\Scripts\data_write.cs" />
-     <Compile Include="Assets\Scripts\obj_active.cs" />
-     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
-     <None Include="Assets\GoogleVR\Resources\UnlitTexture.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <Compile Include="Assets\Scripts\UnityVRAssets\Reticle.cs" />
+     <Compile Include="Assets\Scripts\UnityVRAssets\VREyeRaycaster.cs" />
+     <Compile Include="Assets\Scripts\UnityVRAssets\VRInput.cs" />
+     <Compile Include="Assets\Scripts\UnityVRAssets\VRInteractiveItem.cs" />
+     <None Include="Assets\Data\Results_TEST.xml" />
+     <None Include="Assets\Data\Results_PLAYER.xml" />
      <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\DaiMangou\2D Radar Read Me.txt" />
+     <None Include="Assets\Materials\UIOverlay.shader" />
      <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\Bag\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Data\Results_.xml" />
      <None Include="Assets\Bag\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-     <None Include="Assets\GoogleVR\Resources\SolidColor.shader" />
-     <None Include="Assets\DaiMangou\3D Radar Read Me.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -163,12 +121,6 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="ProRadarBuilder">
- <HintPath>C:/Users/Junyu/Desktop/NANSHEN_PROJECT/Assets/DaiMangou/Pro Radar Builder/LIB/ProRadarBuilder.dll</HintPath>
- </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/Junyu/Desktop/NANSHEN_PROJECT/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AC211EA3-4F7B-1B28-8EAD-A1EFDED9F5C6}</ProjectGuid>
+    <ProjectGuid>{9D784300-0677-17C4-5622-D6054A97BCDA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -46,28 +46,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bag\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\DaiMangou\Pro Radar Builder\Editor\ProRadarBuilderEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrAudioListenerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrAudioRoomEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrAudioSourceEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrGazeEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrMenu.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrViewerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\StereoControllerEditor.cs" />
-     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
-     <None Include="Assets\GoogleVR\Resources\UnlitTexture.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Data\Results_TEST.xml" />
+     <None Include="Assets\Data\Results_PLAYER.xml" />
      <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\DaiMangou\2D Radar Read Me.txt" />
+     <None Include="Assets\Materials\UIOverlay.shader" />
      <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\Bag\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Data\Results_.xml" />
      <None Include="Assets\Bag\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-     <None Include="Assets\GoogleVR\Resources\SolidColor.shader" />
-     <None Include="Assets\DaiMangou\3D Radar Read Me.txt" />
- <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Junyu/Desktop/NANSHEN_PROJECT/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -95,12 +81,6 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
- <Reference Include="ProRadarBuilder">
- <HintPath>C:/Users/Junyu/Desktop/NANSHEN_PROJECT/Assets/DaiMangou/Pro Radar Builder/LIB/ProRadarBuilder.dll</HintPath>
- </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/Junyu/Desktop/NANSHEN_PROJECT/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -110,7 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{A97A9D18-4846-CA8A-FE62-C3798E8C7BE5}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{8BCAD69F-5DE5-65E3-3362-4E2F10473ED7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

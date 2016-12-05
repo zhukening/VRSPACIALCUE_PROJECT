@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Targets>
+		<Target Name="B1">
+			<Location>
+				<x>7.66044443</x>
+				<y>2</y>
+				<z>6.4278761</z>
+			</Location>
+		</Target>
+		<Target Name="B2">
+			<Location>
+				<x>4.69471563</x>
+				<y>2</y>
+				<z>-8.82947593</z>
+			</Location>
+		</Target>
+		<Target Name="B3">
+			<Location>
+				<x>-4.69471563</x>
+				<y>2</y>
+				<z>8.82947593</z>
+			</Location>
+		</Target>
+		<Target Name="B4">
+			<Location>
+				<x>-9.78147601</x>
+				<y>2</y>
+				<z>2.07911691</z>
+			</Location>
+		</Target>
+		<Target Name="B5">
+			<Location>
+				<x>7.66044443</x>
+				<y>2</y>
+				<z>6.4278761</z>
+			</Location>
+		</Target>
+		<Target Name="B6">
+			<Location>
+				<x>8.09016995</x>
+				<y>2</y>
+				<z>-5.87785252</z>
+			</Location>
+		</Target>
+		<Target Name="B7">
+			<Location>
+				<x>-4.69471563</x>
+				<y>2</y>
+				<z>8.82947593</z>
+			</Location>
+		</Target>
+		<Target Name="B8">
+			<Location>
+				<x>-9.70295726</x>
+				<y>2</y>
+				<z>-2.41921896</z>
+			</Location>
+		</Target>
+		<Target Name="B9">
+			<Location>
+				<x>7.66044443</x>
+				<y>2</y>
+				<z>6.4278761</z>
+			</Location>
+		</Target>
+		<Target Name="B10">
+			<Location>
+				<x>-9.78147601</x>
+				<y>2</y>
+				<z>2.07911691</z>
+			</Location>
+		</Target>
+		<Target Name="B11">
+			<Location>
+				<x>0</x>
+				<y>2</y>
+				<z>-10</z>
+			</Location>
+		</Target>
+		<Target Name="B12">
+			<Location>
+				<x>-9.70295726</x>
+				<y>2</y>
+				<z>-2.41921896</z>
+			</Location>
+		</Target>
+		<Target Name="B13">
+			<Location>
+				<x>-4.38371146</x>
+				<y>2</y>
+				<z>-8.98794046</z>
+			</Location>
+		</Target>
+		<Target Name="B14">
+			<Location>
+				<x>7.88010753</x>
+				<y>2</y>
+				<z>6.15661475</z>
+			</Location>
+		</Target>
+		<Target Name="B15">
+			<Location>
+				<x>-4.38371146</x>
+				<y>2</y>
+				<z>-8.98794046</z>
+			</Location>
+		</Target>
+		<Target Name="B16">
+			<Location>
+				<x>7.66044443</x>
+				<y>2</y>
+				<z>-6.42787609</z>
+			</Location>
+		</Target>
+		<Target Name="B17">
+			<Location>
+				<x>0.34899496</x>
+				<y>2</y>
+				<z>9.99390827</z>
+			</Location>
+		</Target>
+		<Target Name="B18">
+			<Location>
+				<x>-9.84807753</x>
+				<y>2</y>
+				<z>-1.73648178</z>
+			</Location>
+		</Target>
+		<Target Name="B19">
+			<Location>
+				<x>0.34899496</x>
+				<y>2</y>
+				<z>9.99390827</z>
+			</Location>
+		</Target>
+		<Target Name="B20">
+			<Location>
+				<x>-0.34899496</x>
+				<y>2</y>
+				<z>-9.99390827</z>
+			</Location>
+		</Target>
+	</Targets>
+</TargetCollection>
