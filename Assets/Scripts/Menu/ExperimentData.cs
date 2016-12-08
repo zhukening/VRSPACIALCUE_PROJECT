@@ -42,7 +42,8 @@ public class ExperimentData : MonoBehaviour {
         }
         else
         {
-            return Experiment.NULL;
+            currentExperimentIndex = 0;
+            return Experiment.NULL; 
         }
 
     }
