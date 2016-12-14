@@ -160,6 +160,8 @@ public class TargetManager : MonoBehaviour {
 
             // load in next Target 
             TargetNumber++;
+            Camera.main.GetComponent<RecordRotation>().TargetNumber = TargetNumber;
+
 
             if (TargetNumber < TargetData.Targets.Count)
             {
@@ -193,6 +195,9 @@ public class TargetManager : MonoBehaviour {
                     // save the participants File
                     TargetData.Save(Path.Combine(Application.dataPath, "Data\\Results_" + ParticipantID + ".xml"));
                 }
+
+                // save rotation log
+                Camera.main.GetComponent<RecordRotation>().SaveData();
 
                 // update current Scenario
                 experimentData.NextScenario();

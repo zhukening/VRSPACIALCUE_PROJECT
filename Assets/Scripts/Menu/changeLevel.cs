@@ -26,37 +26,37 @@ public class changeLevel : MonoBehaviour {
         int ParticipantID = int.Parse(PersistantGameObject.GetComponent<ExperimentData>().participantID);
 
         // configure experiment Order
-        if (ParticipantID % 6 == 0)
+        if (ParticipantID % 6 == 1)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Visual;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Audio;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.VibroHaptic;
         }
-        else if (ParticipantID % 5 == 0)
+        else if (ParticipantID % 6 == 2)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Audio;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.VibroHaptic;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Visual;
         }
-        else if (ParticipantID % 4 == 0)
+        else if (ParticipantID % 6 == 3)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.VibroHaptic;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Visual;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Audio;
         }
-        else if (ParticipantID % 3 == 0)
+        else if (ParticipantID % 6 == 4)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.VibroHaptic;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Audio;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Visual;
         }
-        else if (ParticipantID % 2 == 0)
+        else if (ParticipantID % 6 == 5)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Visual;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.VibroHaptic;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[2] = ExperimentData.Experiment.Audio;
         }
-        else if (ParticipantID % 1 == 0)
+        else if (ParticipantID % 6 == 0)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Audio;
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[1] = ExperimentData.Experiment.Visual;

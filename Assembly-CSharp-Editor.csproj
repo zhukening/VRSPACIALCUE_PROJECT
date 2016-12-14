@@ -46,13 +46,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bag\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <None Include="Assets\Data\RotationLog_0_5_Visual.xml" />
+     <None Include="Assets\Data\RotationLog_TEST.xml" />
+     <None Include="Assets\Data\TargetSets\TargetSet1.xml" />
+     <None Include="Assets\Data\Results_5.xml" />
      <None Include="Assets\Data\Results_TEST.xml" />
-     <None Include="Assets\Data\Results_PLAYER.xml" />
+     <None Include="Assets\Data\RotationLog_1_5_VibroHaptic.xml" />
+     <None Include="Assets\Data\TargetSets\TargetSet2.xml" />
+     <None Include="Assets\Data\Results_4.xml" />
      <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Data\TargetSets\TargetSet0.xml" />
      <None Include="Assets\Materials\UIOverlay.shader" />
      <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Data\RotationLog_4.xml" />
      <None Include="Assets\Bag\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Data\Results_.xml" />
      <None Include="Assets\Bag\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -83,6 +90,12 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>

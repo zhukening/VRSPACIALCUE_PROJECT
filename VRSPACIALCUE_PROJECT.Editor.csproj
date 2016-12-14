@@ -118,8 +118,10 @@
     <None Include="Assets\Bag\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Data\SampleResults_1.xml" />
-    <None Include="Assets\Data\SampleRotationLog_1.xml" />
+    <None Include="Assets\Data\Results_4.xml" />
+    <None Include="Assets\Data\Results_TEST.xml" />
+    <None Include="Assets\Data\RotationLog_4.xml" />
+    <None Include="Assets\Data\RotationLog_TEST.xml" />
     <None Include="Assets\Data\TargetSets\TargetSet0.xml" />
     <None Include="Assets\Data\TargetSets\TargetSet1.xml" />
     <None Include="Assets\Data\TargetSets\TargetSet2.xml" />

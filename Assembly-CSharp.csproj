@@ -91,9 +91,12 @@
      <Compile Include="Assets\Bag\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Scripts\Aim.cs" />
      <Compile Include="Assets\Scripts\DataManagement\RecordRotation.cs" />
+     <Compile Include="Assets\Scripts\DataManagement\RotationContainer.cs" />
+     <Compile Include="Assets\Scripts\DataManagement\RotationData.cs" />
      <Compile Include="Assets\Scripts\DataManagement\Target.cs" />
      <Compile Include="Assets\Scripts\DataManagement\TargetContainer.cs" />
      <Compile Include="Assets\Scripts\DataManagement\TargetManager.cs" />
+     <Compile Include="Assets\Scripts\Fade.cs" />
      <Compile Include="Assets\Scripts\FeedbackSystem\FeedbackMain.cs" />
      <Compile Include="Assets\Scripts\FeedbackSystem\MouseLook.cs" />
      <Compile Include="Assets\Scripts\FeedbackSystem\VibroHapticFeedback.cs" />
@@ -105,13 +108,20 @@
      <Compile Include="Assets\Scripts\UnityVRAssets\VREyeRaycaster.cs" />
      <Compile Include="Assets\Scripts\UnityVRAssets\VRInput.cs" />
      <Compile Include="Assets\Scripts\UnityVRAssets\VRInteractiveItem.cs" />
+     <None Include="Assets\Data\RotationLog_0_5_Visual.xml" />
+     <None Include="Assets\Data\RotationLog_TEST.xml" />
+     <None Include="Assets\Data\TargetSets\TargetSet1.xml" />
+     <None Include="Assets\Data\Results_5.xml" />
      <None Include="Assets\Data\Results_TEST.xml" />
-     <None Include="Assets\Data\Results_PLAYER.xml" />
+     <None Include="Assets\Data\RotationLog_1_5_VibroHaptic.xml" />
+     <None Include="Assets\Data\TargetSets\TargetSet2.xml" />
+     <None Include="Assets\Data\Results_4.xml" />
      <None Include="Assets\Bag\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Data\TargetSets\TargetSet0.xml" />
      <None Include="Assets\Materials\UIOverlay.shader" />
      <None Include="Assets\Bag\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Data\RotationLog_4.xml" />
      <None Include="Assets\Bag\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Data\Results_.xml" />
      <None Include="Assets\Bag\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
