@@ -41,6 +41,8 @@ public class VisualFeedback : MonoBehaviour {
                 break;
             case FeedbackMain.Directions.Down:
                 VFDown.SetActive(false);
+                VFLeft.SetActive(false);
+                VFRight.SetActive(false);
                 break;
             case FeedbackMain.Directions.Right:
                 VFRight.SetActive(false);
