@@ -8,10 +8,12 @@ public class VibroHapticFeedback : MonoBehaviour {
     private FeedbackMain.Directions currentDirection;
 
 	//need to change the name of the serial port everytime the Arduino is connected
-	public static SerialPort sp = new SerialPort("COM3", 115200, Parity.None, 8, StopBits.One);
+	public static SerialPort sp;
+    public string ComPort = "COM3";  // communication port details, 
     
 	// Use this for initialization
     void Start () {
+
 		OpenConnection ();
     }
 
@@ -78,24 +80,36 @@ public class VibroHapticFeedback : MonoBehaviour {
 	//Function connecting to Arduino
 	public void OpenConnection()
 	{
-        // needs protection if arduino not connected.
+        try
+        {
+            sp = new SerialPort(ComPort, 115200, Parity.None, 8, StopBits.One);
 
-		if (sp != null) {
-			if (sp.IsOpen) {
-				sp.Close ();
-				print("Closing port, because it was already open!");
-			} else {
-				sp.Open ();  // opens the connection
-				sp.ReadTimeout = 50;  // sets the timeout value before reporting error
-				print("Port Opened!");
-			}
-		} else {
-			if (sp.IsOpen) {
-				print ("Port is already open");
-			} else {
-				print ("Port == null");
-			}
-		}
+            if (sp != null)
+            {
+                if (sp.IsOpen)
+                {
+                    sp.Close();
+                    print("Closing port, because it was already open!");
+                }
+                else
+                {
+                    sp.Open();  // opens the connection
+                    sp.ReadTimeout = 50;  // sets the timeout value before reporting error
+                    print("Port Opened!");
+                }
+            }
+            else
+            {
+                print("Port == null");
+
+            }
+        }
+        catch (System.IO.IOException ioEx)
+        {
+            print("please ensure the arduino is plugged in and the COM port is correct. ERROR: " + ioEx);
+        }
+
+
 	}
 
     public void closeConnection()

@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+// Written By David Tree - University of Hertfordshire 11/2016
+
 public class changeLevel : MonoBehaviour {
 
     private GameObject PersistantGameObject;
@@ -26,6 +28,7 @@ public class changeLevel : MonoBehaviour {
         int ParticipantID = int.Parse(PersistantGameObject.GetComponent<ExperimentData>().participantID);
 
         // configure experiment Order
+        // six experiment orders to eliminate users speed increase as they become familier with the experiance.
         if (ParticipantID % 6 == 1)
         {
             PersistantGameObject.GetComponent<ExperimentData>().ExperimentOrder[0] = ExperimentData.Experiment.Visual;
